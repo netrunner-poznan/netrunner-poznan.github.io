@@ -9,6 +9,7 @@ table {
    margin: 0 0 20px 0;
 	font-size:11px;
 	border-collapse: collapse;
+   background: #000000
 }
 
 table td, table th {
