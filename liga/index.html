@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="../_css/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../_css/pygment_trac.css" media="screen" />
+
+    <title>android_netrunner - poznań hub - liga</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	
+	<script>
+	$(document).ready(function() {
+		$.ajax({
+		        async:false,
+		        url: 'data/tabela.txt',
+		        dataType: 'text',
+		        success: function(data) 
+		        {
+		        	$("pre#tabela").append(data);
+		        }
+		});
+		
+		$.ajax({
+		        async:false,
+		        url: 'data/raport.2013-03-19.txt',
+		        dataType: 'text',
+		        success: function(data) 
+		        {
+		        	$("pre#raport_2013-03-19").append(data);
+		        }
+		});
+	});
+	</script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1><a class="fake-link" href="http://netrunner-poznan.github.io/">./</a> android_netrunner / liga</h1>
+        <h2>poznań hub</h2>
+
+        <section id="menu">
+		  <a href="/kontakt.html" class="btn">kontakt</a>
+		  <a href="/liga" class="btn">liga</a>
+          <a href="/turnieje" class="btn">turnieje</a>
+		  <a href="https://www.facebook.com/groups/android.netrunner.poznan/" class="btn">facebook</a>
+		  <a href="http://www.youtube.com/channel/UCq5jQg57ZvYcVufs-WgguKA" class="btn">youtube (pyrasite)</a>
+	  </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h3>Liga.</h3>
+		
+		<h4>Zasady</h4>
+		
+		<p>Do ściągnięcia - (<a href="liga-netrunner.pdf">PDF</a> | <a href="liga-netrunner.txt">TXT</a>).</p>
+		
+		<h4>Ogłoszenia</h4>
+		
+		<ul>
+			<li>na prosbe graczy wprowadzamy trofea za wygrana dla kazdej identity (na przyklad 'win as kit' lub 'win as cerebral imaging'). nie beda oznaczone numerem, ale kodem (np: r-id-kit lub c-id-ci, jak cerebral imaging)</li>
+		<li>prosimy ustalac przed gra, zeby obie strony mialy jasnosc, czy gra jest liczona do ligi</li>
+		<li>aktualnie wyniki bede zamieszczac w formacie tekstowym na tej stronie</li>
+		<li>zachecam do publikacji deckow, szczegolnie, jesli i tak nie bedziecie nim grac, bo polujecie na nowe trofea!</li>
+		<li>sprawy ktore mozna zalatwic ze mna na priv, prosze kierowac na priv (w tym bledy w tabeli, nowe mecze etc.)</li>
+	</ul>
+	
+		<h4>Organizator</h4>
+	
+		<p>Paweł Rozynek (prozz)</p>
+		
+		<h4>Trofea</h4>
+		
+		<p>Dostępne <a href="https://docs.google.com/spreadsheets/d/1IMvwHFYdwABn6Czz0UStteNHlOaZ-3KCWRnd6Uar_os/pubhtml">tutaj</a>.
+		</p>
+		
+		<h4>Tabela</h4>
+		
+		<pre id="tabela"><code></code></pre>
+		
+		<h4>Raporty</h4>
+		
+		<p>2013-03-19 (<a href="https://docs.google.com/spreadsheet/ccc?key=0AmN9jcyW2OAbdDJWUGJ0Rm4wRGlLUi1WZWtkLXQ1SVE&usp=sharing#gid=8">statystyki spotkania</a>)</p>
+		<pre id="raport_2013-03-19"><code></code></pre>
+
+      </section>
+    </div>
+  </body>
+</html>
