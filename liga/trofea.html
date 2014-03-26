@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+    <script type='text/javascript' src='../js/tabletop1.3.3.js'></script>
+    <script type='text/javascript' src='../js/sheetsee.js'></script>
+   
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/trofea.css" media="screen" />
+
+    <title>android_netrunner - poznań hub - liga - trofea</title>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1><a class="fake-link" href="http://netrunner-poznan.github.io/">./</a> android_netrunner / liga / trofea</h1>
+        <h2>poznań hub</h2>
+
+        <section id="menu">
+		  <a href="/kontakt.html" class="btn">kontakt</a>
+		  <a href="/liga" class="btn">liga</a>
+          <a href="/turnieje" class="btn">turnieje</a>
+		  <a href="https://www.facebook.com/groups/android.netrunner.poznan/" class="btn">facebook</a>
+		  <a href="http://www.youtube.com/channel/UCq5jQg57ZvYcVufs-WgguKA" class="btn">youtube (pyrasite)</a>
+	  </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+       <h1>All Pennies</h1>
+    <p><em><a href="https://docs.google.com/a/github.com/spreadsheet/ccc?key=0AiDHrschxjK2dDFJOGJteFJ1bTZZUDJsYmRtdk5EUVE&usp=drive_web#gid=0" target="_blank">spreadsheet</a></em><p>
+    <div id="fullTable"></div>
+
+      </section>
+    </div>
+    <script id="fullTable" type="text/html">
+        <table>
+        <tr>
+            <th class="tHeader">Lp.</th>
+            <th class="tHeader">Trofeum</th>
+            <th class="tHeader">David&nbspC.</th>
+            <th class="tHeader">Dawid&nbspS.</th>
+            <th class="tHeader">Maciej&nbspC.</th>
+            <th class="tHeader">Marek&nbspT.</th>
+            <th class="tHeader">Mateusz&nbspN.</th>
+            <th class="tHeader">Mikołaj&nbspK.</th>
+            <th class="tHeader">Paweł&nbspR.</th>
+            <th class="tHeader">Sebastian&nbspZ.</th>
+        </tr>
+        {{#rows}}
+        <tr>
+            <td>{{lp}}</td>
+            <td>{{trofeum}}</td>
+            <td>{{davidc}}</td>
+            <td>{{dawids}}</td>
+            <td>{{maciejc}}</td>
+            <td>{{marekt}}</td>
+            <td>{{mateuszn}}</td>
+            <td>{{mikołajk}}</td>
+            <td>{{pawełr}}</td>
+            <td>{{sebastianz}}</td>
+        </tr>
+        {{/rows}}
+    </table>
+    </script>
+    
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+  	var URL = "0AiDHrschxjK2dDFJOGJteFJ1bTZZUDJsYmRtdk5EUVE"
+  	Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } )
+  })
+
+  function showInfo(data) {
+    var tableOptions = {"data": data
+    , "pagination": 10, "tableDiv": "#fullTable", "filterDiv": "#fullTableFilter"}
+    Sheetsee.makeTable(tableOptions)
+    Sheetsee.initiateTableFilter(tableOptions)
+
+  
+    var calOptions = { "data": gData,
+                       "pagination": 5,
+                       "tableDiv": "#calTable",
+                       "filterDiv": "#calFilter"
+                     }
+    Sheetsee.makeTable(calOptions)
+    Sheetsee.initiateTableFilter(calOptions)
+  }
+
+
+</script>
+    
+  </body>
+</html>
