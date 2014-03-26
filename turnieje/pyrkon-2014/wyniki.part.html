@@ -1,0 +1,15 @@
+<script>
+$(document).ready(function() {
+	$.ajax({
+	        async:false,
+	        url: 'data/wyniki.txt',
+	        dataType: 'text',
+	        success: function(data) 
+	        {
+	        	$("pre#wyniki").append(data);
+	        }
+	});
+});
+</script>
+
+<pre id="wyniki" style="font-size:12px"><code></code></pre>
