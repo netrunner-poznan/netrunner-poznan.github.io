@@ -1,0 +1,50 @@
+/* SHEETSEE STYLES */
+/* These are styles that you'll need to handle for certain elements,
+/* or are available to you through elements sheetsee.js generates */
+
+/* Table */
+
+table {
+   width: 100%;
+   margin: 0 0 20px 0;
+	font-size:11px;
+	border-collapse: collapse;
+   background: #000000
+}
+
+table td, table th {
+  border: 1px dashed #b5e853;
+}
+
+table td {
+ font-size:16px;
+ font-weight:bold
+ padding: 5px 10px;
+ text-align:center; 
+}
+
+table tr:first-child th {
+  border-top: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+.tHeader {/* table column header style */}
+.tRow { font-size:11px; }
+#Pagination {font-size:11px; display: inline-block;}
+#Pagination a {cursor: hand;}
+.no-pag {color: #acacac;}
+
+/* .container {overflow-x: auto;} */
+/* #yourDiv {min-width: 600px} */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 1024px) {}
+

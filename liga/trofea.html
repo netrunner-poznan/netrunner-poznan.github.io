@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+    <script type='text/javascript' src='../js/tabletop1.3.3.js'></script>
+    <script type='text/javascript' src='../js/sheetsee.js'></script>
+   
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/tablestyle.css" media="screen" />
+
+    <title>android_netrunner - poznań hub - liga - trofea</title>
+
+  </head>
+  <body>
+
+    <header>
+      <div class="container">
+        <h1><a class="fake-link" href="http://netrunner-poznan.github.io/">./</a> android_netrunner / liga / trofea</h1>
+        <h2>poznań hub</h2>
+
+        <section id="menu">
+		  <a href="/kontakt.html" class="btn">kontakt</a>
+		  <a href="/liga" class="btn">liga</a>
+          <a href="/turnieje" class="btn">turnieje</a>
+		  <a href="https://www.facebook.com/groups/android.netrunner.poznan/" class="btn">facebook</a>
+		  <a href="http://www.youtube.com/channel/UCq5jQg57ZvYcVufs-WgguKA" class="btn">youtube (pyrasite)</a>
+	  </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+       <h2>Corporation</h2>
+    <div id="fullTableCorporation"></div>
+
+<h2>Runner</h2>
+    <div id="fullTableRunner"></div>
+
+      </section>
+    </div>
+    <script id="fullTableCorporation" type="text/html">
+        <table>
+        <tr>
+            <th class="tHeader">Lp.</th>
+            <th class="tHeader">David&nbspC.</th>
+            <th class="tHeader">Dawid&nbspS.</th>
+            <th class="tHeader">Maciej&nbspC.</th>
+            <th class="tHeader">Marek&nbspT.</th>
+            <th class="tHeader">Mateusz&nbspN.</th>
+            <th class="tHeader">Mikołaj&nbspK.</th>
+            <th class="tHeader">Paweł&nbspR.</th>
+            <th class="tHeader">Sebastian&nbspZ.</th>
+        </tr>
+        {{#rows}}
+        <tr>
+            <td class="tRow">{{clp}}</td>
+            <td>{{cdavidc}}</td>
+            <td>{{cdawids}}</td>
+            <td>{{cmaciejc}}</td>
+            <td>{{cmarekt}}</td>
+            <td>{{cmateuszn}}</td>
+            <td>{{cmikołajk}}</td>
+            <td>{{cpawełr}}</td>
+            <td>{{csebastianz}}</td>
+        </tr>
+        {{/rows}}
+    </table>
+    </script>
+
+<script id="fullTableRunner" type="text/html">
+        <table>
+        <tr>
+            <th class="tHeader">Lp.</th>
+            <th class="tHeader">David&nbspC.</th>
+            <th class="tHeader">Dawid&nbspS.</th>
+            <th class="tHeader">Maciej&nbspC.</th>
+            <th class="tHeader">Marek&nbspT.</th>
+            <th class="tHeader">Mateusz&nbspN.</th>
+            <th class="tHeader">Mikołaj&nbspK.</th>
+            <th class="tHeader">Paweł&nbspR.</th>
+            <th class="tHeader">Sebastian&nbspZ.</th>
+        </tr>
+        {{#rows}}
+        <tr>
+            <td class="tRow">{{rlp}}</td>
+            <td>{{rdavidc}}</td>
+            <td>{{rdawids}}</td>
+            <td>{{rmaciejc}}</td>
+            <td>{{rmarekt}}</td>
+            <td>{{rmateuszn}}</td>
+            <td>{{rmikołajk}}</td>
+            <td>{{rpawełr}}</td>
+            <td>{{rsebastianz}}</td>
+        </tr>
+        {{/rows}}
+    </table>
+    </script>
+    
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+  	var URL = "0AiDHrschxjK2dDFJOGJteFJ1bTZZUDJsYmRtdk5EUVE"
+  	Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } )
+  })
+
+  function showInfo(data) {
+    var corpTable = {"data": data, 
+                     "pagination": 10, 
+                     "tableDiv": "#fullTableCorporation",
+                     "filterDiv": "#fullTableCorporationFilter"
+                    }
+    Sheetsee.makeTable(corpTable)
+    Sheetsee.initiateTableFilter(corpTable)
+
+  
+    var runnerTable = {"data": data,
+                       "pagination": 10,
+                       "tableDiv": "#fullTableRunner",
+                       "filterDiv": "#fullTableRunnerFilter"
+                     }
+    Sheetsee.makeTable(runnerTable)
+    Sheetsee.initiateTableFilter(runnerTable)
+  }
+
+
+</script>
+    
+  </body>
+</html>
