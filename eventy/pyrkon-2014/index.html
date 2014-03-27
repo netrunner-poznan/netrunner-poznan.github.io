@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="../../css/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../../css/pygment_trac.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../../css/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../../css/fancybox/jquery.fancybox-buttons.css?v=1.0.5" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../../css/fancybox/jquery.fancybox-thumbs.css?v=1.0.7" media="screen" />
+
+    <title>android_netrunner - poznań hub - eventy - pyrkon 2014</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../../js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="../../js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="../../js/fancybox/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="../../js/fancybox/jquery.fancybox-media.js?v=1.0.6"></script>
+	<script type="text/javascript" src="../../js/fancybox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+	
+	<script>
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+
+		$.ajax({
+		        async:false,
+		        url: 'data/rundy.txt',
+		        dataType: 'text',
+		        success: function(data) 
+		        {
+		        	$("pre#rundy").append(data);
+		        }
+		});
+	});
+	</script>
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1><a class="fake-link" href="http://netrunner-poznan.github.io/">./</a> android_netrunner / eventy</h1>
+        <h2>poznań hub</h2>
+
+         <section id="menu">
+   		  <a href="/o_grupie.html" class="btn">o grupie</a>
+   		  <a href="/liga" class="btn">liga</a>
+          <a href="/eventy" class="btn">eventy</a>
+   		  <a href="https://www.facebook.com/groups/android.netrunner.poznan/" class="btn">facebook</a>
+   		  <a href="http://www.youtube.com/channel/UCq5jQg57ZvYcVufs-WgguKA" class="btn">youtube</a>
+   		  <a href="/credits.html" class="btn">credits</a>
+   	  </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h3>Pyrkon 2014 (23.03.2014).</h3>
+		
+		<p>25 graczy, 5 rund swiss, rundy 60 minut, brak topa.</p>
+		
+		<h4>Od organizatora</h4>
+
+		<a class="fancybox" rel="plakat" href="img/plakat.jpg" title="Plakat imprezy"><img style="float:left;padding-right:15px;padding-bottom:10px" src="img/plakat_thumb.jpg" /></a>
+		<p>Chciałem bardzo serdecznie podziękować za przybycie i dobrą zabawę wszystkim uczestnikom wczorajszego turnieju na Pyrkonie w Poznaniu. Frekwencja 25 osób to jak na naszą - niestety w dalszym ciągu dość niszową - grę bardzo dobry wynik i mam nadzieję, że będzie to norma na większych turniejach w naszym mieście. Ze strony organizacyjnej szczególne podziękowania kieruję do Marka Talbierza za ogarnięcie banerków promujących turniej, ogarnięcie nagrywania co ciekawszych gier i ogólną pomoc przy organizacji. Dziękuję również Kacprowi Chomiczowi za namówienie mnie do zorganizowania tego turnieju oraz za zorganizowanie dofinansowania części nagród Dziękuję również wszystkim tym bez których przedłużaczy, drukarek itd. nie wyszłoby wszystko tak jak wyszło Myślę, że Poznań z całą pewnością nie powiedział ostatniego słowa jeśli chodzi o organizację większych turniejów, za co zabierzemy się gdy tylko zorganizujemy jakąś przyzwoitą większą salę co mam nadzieję nastąpi już niedługo.</p>
+		
+		<p>Kuba M.</p>
+		<div style="clear:both">&nbsp</div>
+		
+		<h4>Wyniki</h4>
+		
+		<a class="fancybox" rel="wyniki" href="wyniki.part.html" data-fancybox-type="ajax"><img src="img/wyniki_thumb.png" /></a>
+		<br />
+		<br />
+		<h4>Rundy</h4>
+		
+		<pre id="rundy" style="text-align:center"><code></code></pre>
+		
+		<h4>Zdjęcia</h4>
+		
+		<a class="fancybox" rel="galeria" href="img/photo_01.jpg"><img style="padding:5px" src="img/photo_01_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_05.jpg"><img style="padding:5px" src="img/photo_05_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_06.jpg"><img style="padding:5px" src="img/photo_06_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_07.jpg"><img style="padding:5px" src="img/photo_07_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_08.jpg"><img style="padding:5px" src="img/photo_08_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_09.jpg"><img style="padding:5px" src="img/photo_09_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_10.jpg"><img style="padding:5px" src="img/photo_10_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_11.jpg"><img style="padding:5px" src="img/photo_11_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_12.jpg"><img style="padding:5px" src="img/photo_12_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_13.jpg"><img style="padding:5px" src="img/photo_13_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_14.jpg"><img style="padding:5px" src="img/photo_14_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_15.jpg"><img style="padding:5px" src="img/photo_15_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_16.jpg"><img style="padding:5px" src="img/photo_16_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_17.jpg"><img style="padding:5px" src="img/photo_17_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_19.jpg"><img style="padding:5px" src="img/photo_19_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_20.jpg"><img style="padding:5px" src="img/photo_20_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_21.jpg"><img style="padding:5px" src="img/photo_21_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_22.jpg"><img style="padding:5px" src="img/photo_22_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_24.jpg"><img style="padding:5px" src="img/photo_24_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_25.jpg"><img style="padding:5px" src="img/photo_25_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_26.jpg"><img style="padding:5px" src="img/photo_26_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_27.jpg"><img style="padding:5px" src="img/photo_27_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_28.jpg"><img style="padding:5px" src="img/photo_28_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_29.jpg"><img style="padding:5px" src="img/photo_29_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_30.jpg"><img style="padding:5px" src="img/photo_30_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_31.jpg"><img style="padding:5px" src="img/photo_31_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_33.jpg"><img style="padding:5px" src="img/photo_33_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_34.jpg"><img style="padding:5px" src="img/photo_34_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_35.jpg"><img style="padding:5px" src="img/photo_35_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_36.jpg"><img style="padding:5px" src="img/photo_36_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_38.jpg"><img style="padding:5px" src="img/photo_38_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_39.jpg"><img style="padding:5px" src="img/photo_39_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_40.jpg"><img style="padding:5px" src="img/photo_40_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_41.jpg"><img style="padding:5px" src="img/photo_41_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_43.jpg"><img style="padding:5px" src="img/photo_43_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_44.jpg"><img style="padding:5px" src="img/photo_44_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_45.jpg"><img style="padding:5px" src="img/photo_45_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_46.jpg"><img style="padding:5px" src="img/photo_46_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_47.jpg"><img style="padding:5px" src="img/photo_47_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_48.jpg"><img style="padding:5px" src="img/photo_48_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_49.jpg"><img style="padding:5px" src="img/photo_49_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_50.jpg"><img style="padding:5px" src="img/photo_50_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_51.jpg"><img style="padding:5px" src="img/photo_51_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_52.jpg"><img style="padding:5px" src="img/photo_52_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_53.jpg"><img style="padding:5px" src="img/photo_53_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_54.jpg"><img style="padding:5px" src="img/photo_54_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_56.jpg"><img style="padding:5px" src="img/photo_56_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_57.jpg"><img style="padding:5px" src="img/photo_57_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_32.jpg"><img style="padding:5px" src="img/photo_32_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_37.jpg"><img style="padding:5px" src="img/photo_37_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_42.jpg"><img style="padding:5px" src="img/photo_42_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_55.jpg"><img style="padding:5px" src="img/photo_55_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_23.jpg"><img style="padding:5px" src="img/photo_23_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_02.jpg"><img style="padding:5px" src="img/photo_02_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_03.jpg"><img style="padding:5px" src="img/photo_03_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_04.jpg"><img style="padding:5px" src="img/photo_04_thumb.jpg" /></a>
+		<a class="fancybox" rel="galeria" href="img/photo_18.jpg"><img style="padding:5px" src="img/photo_18_thumb.jpg" /></a>
+		
+		<br />
+		<br />
+		<h4>Metagame</h4>
+		
+		<p> Korp:</br>
+			- 11 NBN (6 MN vs 5 TWIY)</br>
+			- 6 HB (5 ETF vs 1 CI)</br>
+			- 5 Weyland (5 BaBW vs 1 GRNDL)</br>
+			- 3 Jinteki (2 RP vs 1 PE)</br>
+			Runner:</br>
+			- 9 Criminal (6 Andy vs 3 Gabe)</br>
+			- 9 Shaper (5 CT vs 3 Kit vs 1 Kate)</br>
+			- 7 Anarch (4 Reina vs 3 Noise)</br>
+		</p>
+		
+		<h4>Stats</h4>
+		
+		<p>Corp</p>
+		<img src="img/corp_breakdown.jpg" />
+		<br />
+		<p>Runner</p>
+		<img src="img/runner_breakdown.jpg" />
+		<br />
+		<br />
+		<h4>Decki</h4>
+
+		<ul>
+			<li>1 miejsce - Śmieszny - (<a href="http://netrunnerdb.com/en/decklist/3450/pyrkon-2014-winner">runner</a> | <a href="http://netrunnerdb.com/en/decklist/3451/pyrkon-2014-winner">corp</a>)</li>
+			<li>2 miejsce - David - (<a href="http://netrunnerdb.com/en/decklist/3445/buggy-chess">runner</a> | <a href="http://netrunnerdb.com/en/decklist/3446/weyland-tag-n-bag-the-old-fashion-way">corp</a>)</li>
+			<li>3 miejsce - Alek - (<a href="http://netrunnerdb.com/en/decklist/3477/pyrkon-2014-3rd-place">runner</a> | <a href="http://netrunnerdb.com/en/decklist/3478/pyrkon-2014-3rd-place">corp</a>)</li>
+			<li>4 miejsce - Prozz - (<a href="http://netrunnerdb.com/en/decklist/3408/no-dinos-no-fear">runner</a> | <a href="http://netrunnerdb.com/en/decklist/3409/committee-trick">corp</a>)</li>
+			<li>6 miejsce - Marek Talbierz - (<a href="http://netrunnerdb.com/en/decklist/3414/ct-6th-place-pyrkon">runner</a> | <a href="http://netrunnerdb.com/en/decklist/3415/nbn-6th-place-pyrkon">corp</a>)</li>
+			<li>17 miejsce - matej - (<a href="http://netrunnerdb.com/en/decklist/3410/noise-the-run-on-the-archive">runner</a>)</li>
+			<li>19 miejsce - Maximo - (<a href="http://netrunnerdb.com/en/decklist/3440/chaos-pyrkon">runner</a> | <a href="http://netrunnerdb.com/en/decklist/3438/hb-pyrkon">corp</a>)</li>
+		</ul>
+      </section>
+    </div>
+  </body>
+</html>
