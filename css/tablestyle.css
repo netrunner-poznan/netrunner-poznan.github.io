@@ -10,14 +10,13 @@ table {
 
 table td, table th {
   border: 1px dashed #b5e853;
-  
+  text-align:center; 
 }
 
 table td {
  font-size:16px;
  font-weight:bold
  padding: 1px 1px;
- text-align:center; 
  height:25px;
 vertical-align:center;
 }
@@ -74,7 +73,7 @@ table tr th:last-child {
     top: 2em; 
     z-index: 99;
     margin-left: 0; 
-    width: 250px;
+    width: 200px;
 }
 
 .classic { padding: 0.8em 1em; }
