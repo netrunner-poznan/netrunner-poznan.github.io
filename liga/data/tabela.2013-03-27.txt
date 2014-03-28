@@ -4,7 +4,7 @@
 2. | Marek T.     | 4 | 10 | 14
 3. | Mateusz N.   | 4 | 9  | 16
 4. | Mateusz K.   | 3 | 9  | 14
-5. | David C.     | 4 | 8  | 6
+5. | David C.     | 4 | 8  | 12
 6. | Kuba M.      | 5 | 7  | 8
 7. | Sebastian Z. | 4 | 6  | 16
 8. | Maciej C.    | 3 | 5  | 11
