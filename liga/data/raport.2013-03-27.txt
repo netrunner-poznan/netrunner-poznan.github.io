@@ -44,3 +44,6 @@ Pawel R.
   c7, c28
   r5, r6, r7, r15, r20
 
+David C.
+  c9, c11, c21,
+  r9,r10, r12
