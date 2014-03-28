@@ -7,13 +7,36 @@
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
     <script type='text/javascript' src='../js/tabletop1.3.3.js'></script>
     <script type='text/javascript' src='../js/sheetsee.js'></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script type="text/javascript" src="../js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="../js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="../js/fancybox/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="../js/fancybox/jquery.fancybox-media.js?v=1.0.6"></script>
+	<script type="text/javascript" src="../js/fancybox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
    
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../css/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../css/tablestyle.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../css/fancybox/jquery.fancybox-buttons.css?v=1.0.5" media="screen" />
+	<link rel="stylesheet" type="text/css" href="../css/fancybox/jquery.fancybox-thumbs.css?v=1.0.7" media="screen" />
 
     <title>android_netrunner - poznań hub - liga - trofea</title>
     
+    <script>
+    $(document).ready(function() {
+        $(".fancybox-html").fancybox({ 
+            width    : '75%', 
+            height   : '75%', 
+            autoSize    : false, 
+            closeClick  : false, 
+            fitToView   : false, 
+            openEffect  : 'none', 
+            closeEffect : 'none', 
+            type : 'iframe' 
+        });
+    });
+	</script>
   </head>
   <body>
 
@@ -34,99 +57,12 @@
 
     <div class="container">
       <section id="main_content">
-       <h2>Corporation</h2>
-    <div id="fullTableCorporation"></div>
+        <a  href="trofeaCorpo.html" class="fancybox-html" >Corporation</a> <a  href="trofeaRunner.html" class="fancybox-html">Runner</a>
 
-<h2>Runner</h2>
-    <div id="fullTableRunner"></div>
-
+      
       </section>
     </div>
-    <script id="fullTableCorporation" type="text/html">
-        <table>
-        <tr>
-            <th class="tHeader">Lp.</th>        
-            <th class="tHeader"><a class="tooltip" href="#">DC<span class="classic">David&nbspC. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">DS<span class="classic">Dawid&nbspS. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">MC<span class="classic">Maciej&nbspC. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">MT<span class="classic">Marek&nbspT. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">MN<span class="classic">Mateusz&nbspN. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">MK<span class="classic">Mikołaj&nbspK. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">PR<span class="classic">Paweł&nbspR. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">SZ<span class="classic">Sebastian&nbspZ.</span></a></th>    
-        </tr>
-        {{#rows}}
-        <tr>
-            <td class="tRow"><a class="tooltip" href="#">{{clp}}<span class="classic">{{ctrofeum}}</span></a></td>
-            <td>{{cdavidc}}</td>
-            <td>{{cdawids}}</td>
-            <td>{{cmaciejc}}</td>
-            <td>{{cmarekt}}</td>
-            <td>{{cmateuszn}}</td>
-            <td>{{cmikołajk}}</td>
-            <td>{{cpawełr}}</td>
-            <td>{{csebastianz}}</td>
-        </tr>
-        {{/rows}}
-    </table>
-    </script>
-
-<script id="fullTableRunner" type="text/html">
-        <table>
-        <tr>
-            <th class="tHeader">Lp.</th>
-            <th class="tHeader"><a class="tooltip" href="#">DC<span class="classic">David&nbspC. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">DS<span class="classic">Dawid&nbspS. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">MC<span class="classic">Maciej&nbspC. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">MT<span class="classic">Marek&nbspT. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">MN<span class="classic">Mateusz&nbspN. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">MK<span class="classic">Mikołaj&nbspK. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">PR<span class="classic">Paweł&nbspR. </span></a></th>
-            <th class="tHeader"><a class="tooltip" href="#">SZ<span class="classic">Sebastian&nbspZ.</span></a></th>    
-        </tr>
-        {{#rows}}
-        <tr>
-            <td class="tRow"><a class="tooltip" href="#">{{rlp}}<span class="classic">{{rtrofeum}}</span></a></td>
-            <td>{{rdavidc}}</td>
-            <td>{{rdawids}}</td>
-            <td>{{rmaciejc}}</td>
-            <td>{{rmarekt}}</td>
-            <td>{{rmateuszn}}</td>
-            <td>{{rmikołajk}}</td>
-            <td>{{rpawełr}}</td>
-            <td>{{rsebastianz}}</td>
-        </tr>
-        {{/rows}}
-    </table>
-    </script>
-    
-<script type="text/javascript">
-  document.addEventListener('DOMContentLoaded', function() {
-  	var URL = "0AiDHrschxjK2dDFJOGJteFJ1bTZZUDJsYmRtdk5EUVE"
-  	Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true } )
-  })
-
-  function showInfo(data) {
-    var corpTable = {"data": data, 
-                     "pagination": 10, 
-                     "tableDiv": "#fullTableCorporation",
-                     "filterDiv": "#fullTableCorporationFilter"
-                    }
-    Sheetsee.makeTable(corpTable)
-    Sheetsee.initiateTableFilter(corpTable)
-
-  
-    var runnerTable = {"data": data,
-                       "pagination": 10,
-                       "tableDiv": "#fullTableRunner",
-                       "filterDiv": "#fullTableRunnerFilter"
-                     }
-    Sheetsee.makeTable(runnerTable)
-    Sheetsee.initiateTableFilter(runnerTable)
-  }
-
-
-</script>
+   
     
   </body>
 </html>
