@@ -9,15 +9,13 @@ body {
 }
 
 .container {
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  
+  width:98%; 
+  margin:0 auto;
 }
 
 section {
   display: block;
-  margin: 0 0 20px 0;
+  margin: 0 0 0 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,18 +28,20 @@ h1, h2, h3, h4, h5, h6 {
                0 0 10px rgba(181, 232, 83, 0.1);
 }
 
-li {
-  line-height: 1.4 ;
-}
-
 /* Table */
+
+#maintable{width: 100%}  
 
 table {
    width: 100%;
-   margin: 0 0 20px 0;
+   margin:0 auto;
 	font-size:11px;
 	border-collapse: collapse;
-   background: rgba(0, 0, 0, 0.1)
+  
+}
+
+thead{
+    background: #151515 url("../img/bkg.png") 0 0;
 }
 
 table td, table th {

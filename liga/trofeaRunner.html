@@ -21,13 +21,15 @@
     <div class="container">
       <section id="main_content">
        <h2>Trofea Runner</h2>
-    <div id="fullTableRunner"></div>
+    <div id="trofTable"></div>
 
 
       </section>
     </div>
-    <script id="fullTableRunner" type="text/html">
-        <table>
+    <script id="trofTable" type="text/html">
+<div id="table-container">
+        <table id="maintable">
+<thead>
         <tr class="tHeader">
             <th>Lp.</th>
             <th>Trofeum</th>
@@ -39,7 +41,12 @@
             <th>Mikołaj&nbspK. </th>
             <th>Paweł&nbspR. </th>
             <th>Sebastian&nbspZ. </th>
+            <th>Kuba&nbspM. </th>
+            <th>Mateusz&nbspK. </th>
+            <th>Jan&nbspS. </th>
         </tr>
+</thead>
+<tbody>
         {{#rows}}
         <tr>
             <td class="tRow">{{rlp}}</td>
@@ -52,14 +59,44 @@
             <td>{{rmikołajk}}</td>
             <td>{{rpawełr}}</td>
             <td>{{rsebastianz}}</td>
+            <td>{{rkubam}}</td>
+            <td>{{rmateuszk}}</td>
+            <td>{{rjans}}</td>
         </tr>
         {{/rows}}
+</tbody>
     </table>
+<div id="bottom_anchor"></div>
+</div>
     </script>
 
 
     
 <script type="text/javascript">
+
+function moveScroll(){
+ var scroll = $(window).scrollTop();
+    var anchor_top = $("#maintable").offset().top;
+    var anchor_bottom = $("#bottom_anchor").offset().top;
+    if (scroll>anchor_top && scroll<anchor_bottom) {
+    clone_table = $("#clone");
+    if(clone_table.length == 0){
+        clone_table = $("#maintable").clone();
+        clone_table.attr('id', 'clone');
+        clone_table.css({position:'fixed',
+                 'pointer-events': 'none',
+                 top:0});
+        clone_table.width($("#maintable").width());
+        $("#table-container").append(clone_table);
+
+        $("#clone").css({visibility:'hidden'});
+        $("#clone thead").css({visibility:'visible' });
+    }
+    } else {
+    $("#clone").remove();
+    }
+}
+$(window).scroll(moveScroll);
 
 var alreadyrunflag=0 //flag to indicate whether target function has already been run
 if (document.addEventListener)
@@ -82,13 +119,13 @@ else if (document.all && !window.opera){
 
 function showInfo(data) 
 {
-    var runnerTable = {"data": data,
+    var trofTable = {"data": data,
                      "pagination": 100,
-                     "tableDiv": "#fullTableRunner",
-                     "filterDiv": "#fullTableRunner"
+                     "tableDiv": "#trofTable",
+                     "filterDiv": "#trofTable"
                     }
-    Sheetsee.makeTable(runnerTable)
-    Sheetsee.initiateTableFilter(runnerTable)
+    Sheetsee.makeTable(trofTable)
+    Sheetsee.initiateTableFilter(trofTable)
   }
   
 window.onload=function(){

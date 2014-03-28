@@ -21,25 +21,32 @@
     <div class="container">
       <section id="main_content">
        <h2>Trofea Corporation</h2>
-    <div id="fullTableCorpo"></div>
+    <div id="trofTable"></div>
 
 
       </section>
     </div>
-    <script id="fullTableCorpo" type="text/html">
-        <table>
-        <tr>
-            <th class="tHeader">Lp.</th>
-            <th class="tHeader">Trofeum</th>
-            <th class="tHeader">David&nbspC. </th>
-            <th class="tHeader">Dawid&nbspS. </th>
-            <th class="tHeader">Maciej&nbspC. </th>
-            <th class="tHeader">Marek&nbspT. </th>
-            <th class="tHeader">Mateusz&nbspN. </th>
-            <th class="tHeader">Mikołaj&nbspK. </th>
-            <th class="tHeader">Paweł&nbspR. </th>
-            <th class="tHeader">Sebastian&nbspZ. </th>
+    <script id="trofTable" type="text/html">
+<div id="table-container">
+        <table id="maintable">
+<thead>
+        <tr class="tHeader">
+            <th>Lp.</th>
+            <th>Trofeum</th>
+            <th>David&nbspC. </th>
+            <th>Dawid&nbspS. </th>
+            <th>Maciej&nbspC. </th>
+            <th>Marek&nbspT. </th>
+            <th>Mateusz&nbspN. </th>
+            <th>Mikołaj&nbspK. </th>
+            <th>Paweł&nbspR. </th>
+            <th>Sebastian&nbspZ. </th>
+            <th>Kuba&nbspM. </th>
+            <th>Mateusz&nbspK. </th>
+            <th>Jan&nbspS. </th>
         </tr>
+</thead>
+<tbody>
         {{#rows}}
         <tr>
             <td class="tRow">{{clp}}</td>
@@ -52,14 +59,44 @@
             <td>{{cmikołajk}}</td>
             <td>{{cpawełr}}</td>
             <td>{{csebastianz}}</td>
+            <td>{{ckubam}}</td>
+            <td>{{cmateuszk}}</td>
+            <td>{{cjans}}</td>
         </tr>
         {{/rows}}
+</tbody>
     </table>
+<div id="bottom_anchor"></div>
+</div>
     </script>
 
 
     
 <script type="text/javascript">
+
+function moveScroll(){
+ var scroll = $(window).scrollTop();
+    var anchor_top = $("#maintable").offset().top;
+    var anchor_bottom = $("#bottom_anchor").offset().top;
+    if (scroll>anchor_top && scroll<anchor_bottom) {
+    clone_table = $("#clone");
+    if(clone_table.length == 0){
+        clone_table = $("#maintable").clone();
+        clone_table.attr('id', 'clone');
+        clone_table.css({position:'fixed',
+                 'pointer-events': 'none',
+                 top:0});
+        clone_table.width($("#maintable").width());
+        $("#table-container").append(clone_table);
+
+        $("#clone").css({visibility:'hidden'});
+        $("#clone thead").css({visibility:'visible' });
+    }
+    } else {
+    $("#clone").remove();
+    }
+}
+$(window).scroll(moveScroll);
 
 var alreadyrunflag=0 //flag to indicate whether target function has already been run
 if (document.addEventListener)
@@ -82,13 +119,13 @@ else if (document.all && !window.opera){
 
 function showInfo(data) 
 {
-    var runnerTable = {"data": data,
+    var trofTable = {"data": data,
                      "pagination": 100,
-                     "tableDiv": "#fullTableCorpo",
-                     "filterDiv": "#fullTableCorpo"
+                     "tableDiv": "#trofTable",
+                     "filterDiv": "#trofTable"
                     }
-    Sheetsee.makeTable(runnerTable)
-    Sheetsee.initiateTableFilter(runnerTable)
+    Sheetsee.makeTable(trofTable)
+    Sheetsee.initiateTableFilter(trofTable)
   }
   
 window.onload=function(){
