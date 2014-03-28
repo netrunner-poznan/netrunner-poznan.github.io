@@ -23,15 +23,6 @@
 		        }
 		});
 		
-		$.ajax({
-		        async:false,
-		        url: 'data/raport.2013-03-19.txt',
-		        dataType: 'text',
-		        success: function(data) 
-		        {
-		        	$("pre#raport_2013-03-19").append(data);
-		        }
-		});
 	});
 	</script>
 
@@ -47,7 +38,7 @@
          <section id="menu">
    		  <a href="/o_grupie.html" class="btn">o grupie</a>
    		  <a href="/liga" class="btn">liga</a>
-          <a href="/eventy" class="btn">eventy</a>
+	          <a href="/eventy" class="btn">eventy</a>
    		  <a href="https://www.facebook.com/groups/android.netrunner.poznan/" class="btn">facebook</a>
    		  <a href="http://www.youtube.com/channel/UCq5jQg57ZvYcVufs-WgguKA" class="btn">youtube</a>
    		  <a href="/credits.html" class="btn">credits</a>
@@ -59,37 +50,24 @@
       <section id="main_content">
         <h3>Liga.</h3>
 		
-		<h4>Zasady</h4>
-		
-		<p>Do ściągnięcia - (<a href="zasady/liga-netrunner.pdf">PDF</a> | <a href="zasady/liga-netrunner.txt">TXT</a>).</p>
-		
-		<h4>Ogłoszenia</h4>
-		
-		<ul>
-			<li>na prośbę graczy wprowadzamy trofea za wygraną dla każdej identity (na przykład 'win as kit' lub 'win as cerebral imaging'). nie będą oznaczone numerem, ale kodem (np: r-id-kit lub c-id-ci, jak cerebral imaging)</li>
-		<li>prosimy ustalać przed grą, żeby obie strony miały jasność, czy gra jest liczona do ligi</li>
-		<li>aktualnie wyniki będę zamieszczać w formacie tekstowym na tej stronie</li>
-		<li>zachęcam do publikacji decków, szczególnie, jeśli i tak nie będziecie nim grać, bo polujecie na nowe trofea!</li>
-		<li>sprawy które można załatwić ze mną na priv, proszę kierować na priv (w tym błędy w tabeli, nowe mecze etc.)</li>
-	</ul>
-	
-		<h4>Organizator</h4>
-	
-		<p>Paweł Rozynek (prozz)</p>
-		
+		<h4>Tabela</h4>
+		<pre id="tabela"><code></code></pre>
+
 		<h4>Trofea</h4>
-		
 		<p>Dostępne <a href="trofea.html">tutaj</a>.
 		</p>
+
+		<h4>Statystyki</h4>
+		<p>
+		<a href="https://docs.google.com/spreadsheet/ccc?key=0AmN9jcyW2OAbdDJWUGJ0Rm4wRGlLUi1WZWtkLXQ1SVE&usp=sharing#gid=8">DOCS</a>
+		</p>
 		
-		<h4>Tabela</h4>
+		<h4>Zasady</h4>
+		<p>Do ściągnięcia - (<a href="zasady/liga-netrunner.pdf">PDF</a> | <a href="zasady/liga-netrunner.txt">TXT</a>).</p>
 		
-		<pre id="tabela"><code></code></pre>
-		
-		<h4>Raporty</h4>
-		
-		<p>2013-03-19 (<a href="https://docs.google.com/spreadsheet/ccc?key=0AmN9jcyW2OAbdDJWUGJ0Rm4wRGlLUi1WZWtkLXQ1SVE&usp=sharing#gid=8">statystyki spotkania</a>)</p>
-		<pre id="raport_2013-03-19"><code></code></pre>
+		<h4>Archiwa</h4>
+		<p>2013-03-27: <a href="data/raport.2013-03-27.txt">raport</a>, <a href="data/tabela.2013-03-27.txt">tabela</a>
+		<p>2013-03-19: <a href="data/raport.2013-03-19.txt">raport</a>, <a href="data/tabela.2013-03-19.txt">tabela</a>
 
       </section>
     </div>
