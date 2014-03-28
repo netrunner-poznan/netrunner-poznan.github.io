@@ -1,0 +1,583 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html class="  ">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    
+    <title>liga/blog-jan.2013-03-19 at master · prozz/liga · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub" />
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png" />
+    <meta property="fb:app_id" content="1401488693436528"/>
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="prozz/liga" name="twitter:title" /><meta content="liga - Poznańska Liga Netrunnera" name="twitter:description" /><meta content="https://avatars2.githubusercontent.com/u/54633?s=400" name="twitter:image:src" />
+<meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars2.githubusercontent.com/u/54633?s=400" property="og:image" /><meta content="prozz/liga" property="og:title" /><meta content="https://github.com/prozz/liga" property="og:url" /><meta content="liga - Poznańska Liga Netrunnera" property="og:description" />
+
+    <link rel="assets" href="https://github.global.ssl.fastly.net/">
+    <link rel="conduit-xhr" href="https://ghconduit.com:25035/">
+    <link rel="xhr-socket" href="/_sockets" />
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="selected-link" value="repo_source" data-pjax-transient />
+    <meta content="collector.githubapp.com" name="octolytics-host" /><meta content="collector-cdn.github.com" name="octolytics-script-host" /><meta content="github" name="octolytics-app-id" /><meta content="2EEE535E:5FEA:AF1A29:5335748A" name="octolytics-dimension-request_id" />
+    
+
+    
+    
+    <link rel="icon" type="image/x-icon" href="https://github.global.ssl.fastly.net/favicon.ico" />
+
+    <meta content="authenticity_token" name="csrf-param" />
+<meta content="nu357Y1O3nj22lBJGzQYlYMBAZkgznrB08XzFxVLTN4=" name="csrf-token" />
+
+    <link href="https://github.global.ssl.fastly.net/assets/github-e4692660018938e2e4f1280f47caf131b03c33fb.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="https://github.global.ssl.fastly.net/assets/github2-fe84bd420a5e69b44f1d16de5a13785975826f77.css" media="all" rel="stylesheet" type="text/css" />
+    
+
+
+        <script crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/frameworks-4ffe0645461d6fd51485ee3e555a732ee7075743.js" type="text/javascript"></script>
+        <script async="async" crossorigin="anonymous" src="https://github.global.ssl.fastly.net/assets/github-8d96c5f1cbf122b63b81393942caef8ff0b60c80.js" type="text/javascript"></script>
+        
+        
+      <meta http-equiv="x-pjax-version" content="7f264c5f9b6811329e669a072ebb0cc9">
+
+        <link data-pjax-transient rel='permalink' href='/prozz/liga/blob/97b40aa1c4827547052b6c9833966db1e1b902c1/blog-jan.2013-03-19'>
+
+  <meta name="description" content="liga - Poznańska Liga Netrunnera" />
+
+  <meta content="54633" name="octolytics-dimension-user_id" /><meta content="prozz" name="octolytics-dimension-user_login" /><meta content="17703613" name="octolytics-dimension-repository_id" /><meta content="prozz/liga" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="17703613" name="octolytics-dimension-repository_network_root_id" /><meta content="prozz/liga" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/prozz/liga/commits/master.atom" rel="alternate" title="Recent Commits to liga:master" type="application/atom+xml" />
+
+  </head>
+
+
+  <body class="logged_out  env-production  vis-public page-blob">
+    <a href="#start-of-content" class="accessibility-aid js-skip-to-content">Skip to content</a>
+    <div class="wrapper">
+      
+      
+      
+      
+
+
+      
+      <div class="header header-logged-out">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions">
+        <a class="button primary" href="/join">Sign up</a>
+      <a class="button signin" href="/login?return_to=%2Fprozz%2Fliga%2Fblob%2Fmaster%2Fblog-jan.2013-03-19">Sign in</a>
+    </div>
+
+    <div class="command-bar js-command-bar  in-repository">
+
+      <ul class="top-nav">
+          <li class="explore"><a href="/explore">Explore</a></li>
+        <li class="features"><a href="/features">Features</a></li>
+          <li class="enterprise"><a href="https://enterprise.github.com/">Enterprise</a></li>
+          <li class="blog"><a href="/blog">Blog</a></li>
+      </ul>
+        <form accept-charset="UTF-8" action="/search" class="command-bar-form" id="top_search_form" method="get">
+
+<div class="commandbar">
+  <span class="message"></span>
+  <input type="text" data-hotkey="/ s" name="q" id="js-command-bar-field" placeholder="Search or type a command" tabindex="1" autocapitalize="off"
+    
+    
+      data-repo="prozz/liga"
+      data-branch="master"
+      data-sha="3f2d80eafaa07b456375988a2bb066f084cd38d8"
+  >
+  <div class="display hidden"></div>
+</div>
+
+    <input type="hidden" name="nwo" value="prozz/liga" />
+
+    <div class="select-menu js-menu-container js-select-menu search-context-select-menu">
+      <span class="minibutton select-menu-button js-menu-target" role="button" aria-haspopup="true">
+        <span class="js-select-button">This repository</span>
+      </span>
+
+      <div class="select-menu-modal-holder js-menu-content js-navigation-container" aria-hidden="true">
+        <div class="select-menu-modal">
+
+          <div class="select-menu-item js-navigation-item js-this-repository-navigation-item selected">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" class="js-search-this-repository" name="search_target" value="repository" checked="checked" />
+            <div class="select-menu-item-text js-select-button-text">This repository</div>
+          </div> <!-- /.select-menu-item -->
+
+          <div class="select-menu-item js-navigation-item js-all-repositories-navigation-item">
+            <span class="select-menu-item-icon octicon octicon-check"></span>
+            <input type="radio" name="search_target" value="global" />
+            <div class="select-menu-item-text js-select-button-text">All repositories</div>
+          </div> <!-- /.select-menu-item -->
+
+        </div>
+      </div>
+    </div>
+
+  <span class="help tooltipped tooltipped-s" aria-label="Show command bar help">
+    <span class="octicon octicon-question"></span>
+  </span>
+
+
+  <input type="hidden" name="ref" value="cmdform">
+
+</form>
+    </div>
+
+  </div>
+</div>
+
+
+
+      <div id="start-of-content" class="accessibility-aid"></div>
+          <div class="site" itemscope itemtype="http://schema.org/WebPage">
+    
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+      <div class="container">
+        
+
+<ul class="pagehead-actions">
+
+
+  <li>
+    <a href="/login?return_to=%2Fprozz%2Fliga"
+    class="minibutton with-count js-toggler-target star-button tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>Star
+  </a>
+
+    <a class="social-count js-social-count" href="/prozz/liga/stargazers">
+      0
+    </a>
+
+  </li>
+
+    <li>
+      <a href="/login?return_to=%2Fprozz%2Fliga"
+        class="minibutton with-count js-toggler-target fork-button tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-git-branch"></span>Fork
+      </a>
+      <a href="/prozz/liga/network" class="social-count">
+        3
+      </a>
+    </li>
+</ul>
+
+        <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public">
+          <span class="repo-label"><span>public</span></span>
+          <span class="mega-octicon octicon-repo"></span>
+          <span class="author">
+            <a href="/prozz" class="url fn" itemprop="url" rel="author"><span itemprop="title">prozz</span></a>
+          </span>
+          <span class="repohead-name-divider">/</span>
+          <strong><a href="/prozz/liga" class="js-current-repository js-repo-home-link">liga</a></strong>
+
+          <span class="page-context-loader">
+            <img alt="Octocat-spinner-32" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+          </span>
+
+        </h1>
+      </div><!-- /.container -->
+    </div><!-- /.repohead -->
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline js-new-discussion-timeline  ">
+        <div class="repository-sidebar clearfix">
+            
+
+<div class="sunken-menu vertical-right repo-nav js-repo-nav js-repository-container-pjax js-octicon-loaders">
+  <div class="sunken-menu-contents">
+    <ul class="sunken-menu-group">
+      <li class="tooltipped tooltipped-w" aria-label="Code">
+        <a href="/prozz/liga" aria-label="Code" class="selected js-selected-navigation-item sunken-menu-item" data-gotokey="c" data-pjax="true" data-selected-links="repo_source repo_downloads repo_commits repo_tags repo_branches /prozz/liga">
+          <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+        <li class="tooltipped tooltipped-w" aria-label="Issues">
+          <a href="/prozz/liga/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="i" data-selected-links="repo_issues /prozz/liga/issues">
+            <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+            <span class='counter'>0</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>        </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Pull Requests">
+        <a href="/prozz/liga/pulls" aria-label="Pull Requests" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-gotokey="p" data-selected-links="repo_pulls /prozz/liga/pulls">
+            <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull Requests</span>
+            <span class='counter'>0</span>
+            <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+
+    </ul>
+    <div class="sunken-menu-separator"></div>
+    <ul class="sunken-menu-group">
+
+      <li class="tooltipped tooltipped-w" aria-label="Pulse">
+        <a href="/prozz/liga/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="pulse /prozz/liga/pulse">
+          <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Graphs">
+        <a href="/prozz/liga/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-pjax="true" data-selected-links="repo_graphs repo_contributors /prozz/liga/graphs">
+          <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Network">
+        <a href="/prozz/liga/network" aria-label="Network" class="js-selected-navigation-item sunken-menu-item js-disable-pjax" data-selected-links="repo_network /prozz/liga/network">
+          <span class="octicon octicon-git-branch"></span> <span class="full-word">Network</span>
+          <img alt="Octocat-spinner-32" class="mini-loader" height="16" src="https://github.global.ssl.fastly.net/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+    </ul>
+
+
+  </div>
+</div>
+
+              <div class="only-with-full-nav">
+                
+
+  
+
+<div class="clone-url open"
+  data-protocol-type="http"
+  data-url="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone">
+  <h3><strong>HTTPS</strong> clone URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/prozz/liga.git" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/prozz/liga.git" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+  
+
+<div class="clone-url "
+  data-protocol-type="subversion"
+  data-url="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone">
+  <h3><strong>Subversion</strong> checkout URL</h3>
+  <div class="clone-url-box">
+    <input type="text" class="clone js-url-field"
+           value="https://github.com/prozz/liga" readonly="readonly">
+
+    <span aria-label="copy to clipboard" class="js-zeroclipboard url-box-clippy minibutton zeroclipboard-button" data-clipboard-text="https://github.com/prozz/liga" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+<p class="clone-options">You can clone with
+      <a href="#" class="js-clone-selector" data-protocol="http">HTTPS</a>
+      or <a href="#" class="js-clone-selector" data-protocol="subversion">Subversion</a>.
+  <span class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <a href="https://help.github.com/articles/which-remote-url-should-i-use">
+    <span class="octicon octicon-question"></span>
+    </a>
+  </span>
+</p>
+
+
+
+                <a href="/prozz/liga/archive/master.zip"
+                   class="minibutton sidebar-button"
+                   aria-label="Download prozz/liga as a zip file"
+                   title="Download prozz/liga as a zip file"
+                   rel="nofollow">
+                  <span class="octicon octicon-cloud-download"></span>
+                  Download ZIP
+                </a>
+              </div>
+        </div><!-- /.repository-sidebar -->
+
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+          
+
+
+<!-- blob contrib key: blob_contributors:v21:0d6498bee1e3e6bb005cf9d14958c211 -->
+
+<p title="This is a placeholder element" class="js-history-link-replace hidden"></p>
+
+<a href="/prozz/liga/find/master" data-pjax data-hotkey="t" class="js-show-file-finder" style="display:none">Show File Finder</a>
+
+<div class="file-navigation">
+  
+
+<div class="select-menu js-menu-container js-select-menu" >
+  <span class="minibutton select-menu-button js-menu-target" data-hotkey="w"
+    data-master-branch="master"
+    data-ref="master"
+    role="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <span class="octicon octicon-git-branch"></span>
+    <i>branch:</i>
+    <span class="js-select-button">master</span>
+  </span>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="select-menu-title">Switch branches/tags</span>
+        <span class="octicon octicon-remove-close js-menu-close"></span>
+      </div> <!-- /.select-menu-header -->
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" class="js-select-menu-tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" class="js-select-menu-tab">Tags</a>
+            </li>
+          </ul>
+        </div><!-- /.select-menu-tabs -->
+      </div><!-- /.select-menu-filters -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <div class="select-menu-item js-navigation-item ">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/prozz/liga/blob/gh-pages/blog-jan.2013-03-19"
+                 data-name="gh-pages"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="gh-pages">gh-pages</a>
+            </div> <!-- /.select-menu-item -->
+            <div class="select-menu-item js-navigation-item selected">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <a href="/prozz/liga/blob/master/blog-jan.2013-03-19"
+                 data-name="master"
+                 data-skip-pjax="true"
+                 rel="nofollow"
+                 class="js-navigation-open select-menu-item-text js-select-button-text css-truncate-target"
+                 title="master">master</a>
+            </div> <!-- /.select-menu-item -->
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div> <!-- /.select-menu-list -->
+
+    </div> <!-- /.select-menu-modal -->
+  </div> <!-- /.select-menu-modal-holder -->
+</div> <!-- /.select-menu -->
+
+  <div class="breadcrumb">
+    <span class='repo-root js-repo-root'><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/prozz/liga" data-branch="master" data-direction="back" data-pjax="true" itemscope="url"><span itemprop="title">liga</span></a></span></span><span class="separator"> / </span><strong class="final-path">blog-jan.2013-03-19</strong> <span aria-label="copy to clipboard" class="js-zeroclipboard minibutton zeroclipboard-button" data-clipboard-text="blog-jan.2013-03-19" data-copied-hint="copied!"><span class="octicon octicon-clippy"></span></span>
+  </div>
+</div>
+
+
+  <div class="commit file-history-tease">
+    <img alt="iloveMRT" class="main-avatar js-avatar" data-user="7005068" height="24" src="https://avatars2.githubusercontent.com/u/7005068?s=140" width="24" />
+    <span class="author"><a href="/iloveMRT" rel="author">iloveMRT</a></span>
+    <time class="js-relative-date" data-title-format="YYYY-MM-DD HH:mm:ss" datetime="2014-03-20T10:36:12+01:00" title="2014-03-20 10:36:12">March 20, 2014</time>
+    <div class="commit-title">
+        <a href="/prozz/liga/commit/c0192f5897c3b240fe35133727e1d7ee3413f9c7" class="message" data-pjax="true" title="Update blog-jan.2013-03-19">Update blog-jan.2013-03-19</a>
+    </div>
+
+    <div class="participation">
+      <p class="quickstat"><a href="#blob_contributors_box" rel="facebox"><strong>2</strong>  contributors</a></p>
+          <a class="avatar tooltipped tooltipped-s" aria-label="prozz" href="/prozz/liga/commits/master/blog-jan.2013-03-19?author=prozz"><img alt="prozz" class=" js-avatar" data-user="54633" height="20" src="https://avatars1.githubusercontent.com/u/54633?s=140" width="20" /></a>
+    <a class="avatar tooltipped tooltipped-s" aria-label="iloveMRT" href="/prozz/liga/commits/master/blog-jan.2013-03-19?author=iloveMRT"><img alt="iloveMRT" class=" js-avatar" data-user="7005068" height="20" src="https://avatars2.githubusercontent.com/u/7005068?s=140" width="20" /></a>
+
+
+    </div>
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list">
+          <li class="facebox-user-list-item">
+            <img alt="prozz" class=" js-avatar" data-user="54633" height="24" src="https://avatars1.githubusercontent.com/u/54633?s=140" width="24" />
+            <a href="/prozz">prozz</a>
+          </li>
+          <li class="facebox-user-list-item">
+            <img alt="iloveMRT" class=" js-avatar" data-user="7005068" height="24" src="https://avatars2.githubusercontent.com/u/7005068?s=140" width="24" />
+            <a href="/iloveMRT">iloveMRT</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file-box">
+  <div class="file">
+    <div class="meta clearfix">
+      <div class="info file-name">
+        <span class="icon"><b class="octicon octicon-file-text"></b></span>
+        <span class="mode" title="File Mode">file</span>
+        <span class="meta-divider"></span>
+          <span>38 lines (36 sloc)</span>
+          <span class="meta-divider"></span>
+        <span>3.907 kb</span>
+      </div>
+      <div class="actions">
+        <div class="button-group">
+              <a class="minibutton disabled tooltipped tooltipped-w" href="#"
+                 aria-label="You must be signed in to make or propose changes">Edit</a>
+          <a href="/prozz/liga/raw/master/blog-jan.2013-03-19" class="button minibutton " id="raw-url">Raw</a>
+            <a href="/prozz/liga/blame/master/blog-jan.2013-03-19" class="button minibutton js-update-url-with-hash">Blame</a>
+          <a href="/prozz/liga/commits/master/blog-jan.2013-03-19" class="button minibutton " rel="nofollow">History</a>
+        </div><!-- /.button-group -->
+          <a class="minibutton danger disabled empty-icon tooltipped tooltipped-w" href="#"
+             aria-label="You must be signed in to make or propose changes">
+          Delete
+        </a>
+      </div><!-- /.actions -->
+    </div>
+        <div class="blob-wrapper data type-text js-blob-data">
+        <table class="file-code file-diff tab-size-8">
+          <tr class="file-code-line">
+            <td class="blob-line-nums">
+              <span id="L1" rel="#L1">1</span>
+<span id="L2" rel="#L2">2</span>
+<span id="L3" rel="#L3">3</span>
+<span id="L4" rel="#L4">4</span>
+<span id="L5" rel="#L5">5</span>
+<span id="L6" rel="#L6">6</span>
+<span id="L7" rel="#L7">7</span>
+<span id="L8" rel="#L8">8</span>
+<span id="L9" rel="#L9">9</span>
+<span id="L10" rel="#L10">10</span>
+<span id="L11" rel="#L11">11</span>
+<span id="L12" rel="#L12">12</span>
+<span id="L13" rel="#L13">13</span>
+<span id="L14" rel="#L14">14</span>
+<span id="L15" rel="#L15">15</span>
+<span id="L16" rel="#L16">16</span>
+<span id="L17" rel="#L17">17</span>
+<span id="L18" rel="#L18">18</span>
+<span id="L19" rel="#L19">19</span>
+<span id="L20" rel="#L20">20</span>
+<span id="L21" rel="#L21">21</span>
+<span id="L22" rel="#L22">22</span>
+<span id="L23" rel="#L23">23</span>
+<span id="L24" rel="#L24">24</span>
+<span id="L25" rel="#L25">25</span>
+<span id="L26" rel="#L26">26</span>
+<span id="L27" rel="#L27">27</span>
+<span id="L28" rel="#L28">28</span>
+<span id="L29" rel="#L29">29</span>
+<span id="L30" rel="#L30">30</span>
+<span id="L31" rel="#L31">31</span>
+<span id="L32" rel="#L32">32</span>
+<span id="L33" rel="#L33">33</span>
+<span id="L34" rel="#L34">34</span>
+<span id="L35" rel="#L35">35</span>
+<span id="L36" rel="#L36">36</span>
+<span id="L37" rel="#L37">37</span>
+
+            </td>
+            <td class="blob-line-code"><div class="code-body highlight"><pre><div class='line' id='LC1'>&nbsp;&nbsp;Dziś miał miejsce start ligi. Jak zwykle spóźniłem się na Gwarną ale miałem do wyboru być na czas tramwajem lub później</div><div class='line' id='LC2'>autem, więc wybór był prosty. Miło zaskoczyła mnie frekwencja. Od razu rozglądam się za przeciwnikami gotowy do potyczki.</div><div class='line' id='LC3'>Marek cały szczęścliwy po zwycięstwie nad Kubą poinformował mnie, że już nie gra bo się &quot;źle czuje&quot; ze swoim deckiem. OK.</div><div class='line' id='LC4'>Ulokowałem się na kanapie czekając na przeciwnkia i tak poznałem Adama. Ustalilśmy, że gramy poza ligą. Adam dawno nie miał</div><div class='line' id='LC5'>okazji pograć a ja pomyślałem, że rozgrzewka przed grą o punkty to nie najgorszy pomysł.</div><div class='line' id='LC6'>&nbsp;&nbsp;Gra 1: Jinteki PE vs Gabe </div><div class='line' id='LC7'>&nbsp;&nbsp;Jak zwykle przeciwko Jinteki zaczynam powoli. Sprawdzam co turę R&amp;D i wyciągam Fetala. Następna tura dobieram karty i </div><div class='line' id='LC8'>Snare. Adam scoruje jedynki i zaczynam mnie to irytować. 4 Ice&#39;y na stole, ja w końcu mam Corrodera Crypsisa i Garrote. </div><div class='line' id='LC9'>Skok na HQ bo Gabe lubi HQ no i obrywam z Archera. Za głupoty trzeba płacić a ja nie mam kasy na Archera więc tracę sentry </div><div class='line' id='LC10'>breakera i Crypsisa. Fajnie, zostaje mi tylko Femme i Faerie w decku. Staram się kontrolować R&amp;D bo tylko tam mogę się </div><div class='line' id='LC11'>dostać i wyciągam Fetala i jedynkę. Adam punktuje Gilę i zaczyna pływać w kasie.Zdesperowany zaczynam runować co popadnie </div><div class='line' id='LC12'>by zmusić go do rezowania pamietająć o kartach gybym wpadł na Katanę. Końcówka wyglądała tak, że udało mi się zagrać</div><div class='line' id='LC13'>Siphona, zgarnąć tagi i na ostatnim kliku wyciągnąc agendę z remota z jedną kartą w ręku. Gdyby to była gra ligowa wpadłby </div><div class='line' id='LC14'>aczik za wygraną zamiast flatline bo na serwerze był jeszcze Hokusai.</div><div class='line' id='LC15'>&nbsp;&nbsp;Gra 2: Reina vs HB podstawka</div><div class='line' id='LC16'>Pamiętam, że Adam trashował mi Adonisy ale jak udało mi się zrezować SanSana to został do końca gry. Dwie albo trzy tury</div><div class='line' id='LC17'>agresywnie szukałem Jackosonem agend do zakończenia gry Ostatnia agenda to 4/2 w jedenj turze w kombinacji SanSan, Biotic i</div><div class='line' id='LC18'>Shipment from SanSan. Gdyby Adam więcej skakał to mogłoby się to potoczyć inaczej ale miał kilka programów bez breakerów </div><div class='line' id='LC19'>na stole no i widział moje Roto i Ichi w ręce.</div><div class='line' id='LC20'>&nbsp;&nbsp;Gra 3: THE PROFESSSSSSSSSSSSSSSSSSSSSSOR vs HB podstawka</div><div class='line' id='LC21'>Czekałem na koniec meczu Pawła i Mikołaja. Paweł znów grał swoim HB, z którym przegrałem na zeszłym spotkaniu w Cube.</div><div class='line' id='LC22'>Mimo że wiedziałem co mnie czeka nie kwapiłem się do tego pojedynku. Na szczęście Mikołaj bardzo chciał potrenować swojego</div><div class='line' id='LC23'>Profesora. No to gramy. Vs Profesor wiadomo co cię czeka. Sneakdoory, Mediumy, Nerve Agenty, Opusy. Jednym słowem</div><div class='line' id='LC24'>wszystko. Gra nagrywana na potrzeby Pyrasite więc przyjemność podwójna. Pamiętam, że zalewały mnie agendy. Miałem SanSana</div><div class='line' id='LC25'>nie chronionego na remocie i momentami do 4 agend w ręce. W końcu musiałem go zrezować ale zapunktowałem raz i został</div><div class='line' id='LC26'>straszowany. Następnie Mikołaj wyjął mi 2 agendy z ręki i jedną z R&amp;D. Pamiętam, że chowałem agendy wszędzie, nawet w</div><div class='line' id='LC27'>archiwach. Kolejny SanSan wyrównał punkty zanim został strashowany. Końcówka była emocjonująca. Jedna agenda w archiwach,</div><div class='line' id='LC28'>jedna na remocie, jedna w ręce. Mikołaj ranuje R&amp;D z Medium. Nic. Wygrywam.</div><div class='line' id='LC29'>&nbsp;&nbsp;Gra 4: Weyland BWBI vs Gabe</div><div class='line' id='LC30'>Gram z Sebą. Ludzie wychodzą już więc ustalamy, że gramy jeden mecz i dokończymy następnym razem. Zostaje z nami David.</div><div class='line' id='LC31'>Seba ma big icey i Oversight AI. Drugi raz z rzędu zadaża mi się E. Shutodownować Seby Hadriana w pierwszej turze! Mam</div><div class='line' id='LC32'>przewagę, a przynajmniej tak mi się wydaje, ranuję HQ co turę bo na R&amp;D jest Tollbooth i wyciągam jedną dwójkę. Seba </div><div class='line' id='LC33'>stakuje icy. Wyciągam jeszcze jedną dwójkę. HQ broni teraz Archer na Overshight oraz Curtain Wall też na Oversight. Przez </div><div class='line' id='LC34'>kilka tur podczas których trenujemy angielski z Davidem zbieram kasę. W końcu z 20+ credytami ranuję HQ i wyciągam trójkę.</div><div class='line' id='LC35'>Zacząłem się już martwić bo Sebastian miał już remote, dwa icy i zagrał install, advance, advance ale skończyło się to</div><div class='line' id='LC36'>dobrze.</div><div class='line' id='LC37'><br/></div></pre></div></td>
+          </tr>
+        </table>
+  </div>
+
+  </div>
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" class="js-jump-to-line" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <form accept-charset="UTF-8" class="js-jump-to-line-form">
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" autofocus>
+    <button type="submit" class="button">Go</button>
+  </form>
+</div>
+
+        </div>
+
+      </div><!-- /.repo-container -->
+      <div class="modal-backdrop"></div>
+    </div><!-- /.container -->
+  </div><!-- /.site -->
+
+
+    </div><!-- /.wrapper -->
+
+      <div class="container">
+  <div class="site-footer">
+    <ul class="site-footer-links right">
+      <li><a href="https://status.github.com/">Status</a></li>
+      <li><a href="http://developer.github.com">API</a></li>
+      <li><a href="http://training.github.com">Training</a></li>
+      <li><a href="http://shop.github.com">Shop</a></li>
+      <li><a href="/blog">Blog</a></li>
+      <li><a href="/about">About</a></li>
+
+    </ul>
+
+    <a href="/">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+    </a>
+
+    <ul class="site-footer-links">
+      <li>&copy; 2014 <span title="0.02596s from github-fe133-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="/site/terms">Terms</a></li>
+        <li><a href="/site/privacy">Privacy</a></li>
+        <li><a href="/security">Security</a></li>
+        <li><a href="/contact">Contact</a></li>
+    </ul>
+  </div><!-- /.site-footer -->
+</div><!-- /.container -->
+
+
+    <div class="fullscreen-overlay js-fullscreen-overlay" id="fullscreen_overlay">
+  <div class="fullscreen-container js-fullscreen-container">
+    <div class="textarea-wrap">
+      <textarea name="fullscreen-contents" id="fullscreen-contents" class="js-fullscreen-contents" placeholder="" data-suggester="fullscreen_suggester"></textarea>
+    </div>
+  </div>
+  <div class="fullscreen-sidebar">
+    <a href="#" class="exit-fullscreen js-exit-fullscreen tooltipped tooltipped-w" aria-label="Exit Zen Mode">
+      <span class="mega-octicon octicon-screen-normal"></span>
+    </a>
+    <a href="#" class="theme-switcher js-theme-switcher tooltipped tooltipped-w"
+      aria-label="Switch themes">
+      <span class="octicon octicon-color-mode"></span>
+    </a>
+  </div>
+</div>
+
+
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <a href="#" class="octicon octicon-remove-close close js-ajax-error-dismiss"></a>
+      Something went wrong with that request. Please try again.
+    </div>
+
+  </body>
+</html>
+
