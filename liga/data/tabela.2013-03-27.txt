@@ -1,11 +1,13 @@
-   | gracz        | m | p | t
----+--------------+---+---+---
-1. | Sebastian Z. | 1 | 3 | 12
-2. | Mateusz N.   | 1 | 3 | 10
-3. | Paweł R.     | 1 | 3 | 10
-4. | Maciej C.    | 2 | 3 | 9
-5. | Marek T.     | 1 | 3 | 7
-6. | David C.     | 1 | 3 | 6
-7. | Dawid S.     | 2 | 3 | 5
-8. | Kuba M.      | 2 | 2 | 0
-9. | Mikołaj K.   | 1 | 1 | 2
+   | gracz        | m | p  | t
+---+--------------+---+----+---
+1. | Paweł R.     | 4 | 10 | 17
+2. | Marek T.     | 4 | 10 | 14
+3. | Mateusz N.   | 4 | 9  | 16
+4. | Mateusz K.   | 3 | 9  | 14
+5. | David C.     | 4 | 8  | 6
+6. | Kuba M.      | 5 | 7  | 8
+7. | Sebastian Z. | 4 | 6  | 16
+8. | Maciej C.    | 3 | 5  | 11
+9. | Dawid S.     | 2 | 3  | 5
+10.| Mikołaj K.   | 3 | 3  | 2
+11.| Jan S.       | 2 | 3  | 11

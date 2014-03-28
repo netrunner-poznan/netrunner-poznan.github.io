@@ -37,5 +37,10 @@ Jan S.
   c9, c12, c17, c19, c23, c25
 
 Marek T.
-  c13 ,c14, c15, c17
+  c13, c14, c15, c17
   r5, r8, r23
+
+Pawel R.
+  c7, c28
+  r5, r6, r7, r15, r20
+
