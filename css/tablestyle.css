@@ -1,3 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #151515 url("../img/bkg.png") 0 0;
+  color: #eaeaea;
+  font: 16px;
+  line-height: 1.5;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  
+}
+
+section {
+  display: block;
+  margin: 0 0 20px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color: #b5e853;
+  letter-spacing: -0.03em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
+               0 0 5px rgba(181, 232, 83, 0.1),
+               0 0 10px rgba(181, 232, 83, 0.1);
+}
+
+li {
+  line-height: 1.4 ;
+}
+
 /* Table */
 
 table {
@@ -11,12 +47,13 @@ table {
 table td, table th {
   border: 1px dashed #b5e853;
   text-align:center; 
-}
+   padding: 5px 5px;
+  }
 
 table td {
  font-size:16px;
  font-weight:bold
- padding: 1px 1px;
+ padding: 5px 5px;
  height:25px;
 vertical-align:center;
 }
@@ -36,7 +73,8 @@ table tr th:last-child {
   border-right: 0;
 }
 
-.tHeader {/* table column header style */}
+.tHeader {
+}
 .tRow { font-size:11px; }
 #Pagination {font-size:11px; display: inline-block; cursor: hand;}
 #Pagination a {cursor: hand;}

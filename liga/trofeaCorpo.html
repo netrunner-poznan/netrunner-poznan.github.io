@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+    <script type='text/javascript' src='../js/tabletop1.3.3.js'></script>
+    <script type='text/javascript' src='../js/sheetsee.js'></script>
+   
+    
+    <link rel="stylesheet" type="text/css" href="../css/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/tablestyle.css" media="screen" />
+
+    <title>android_netrunner - poznań hub - liga - trofea</title>
+    
+  </head>
+  <body>
+
+
+    <div class="container">
+      <section id="main_content">
+       <h2>Trofea Corporation</h2>
+    <div id="fullTableCorpo"></div>
+
+
+      </section>
+    </div>
+    <script id="fullTableCorpo" type="text/html">
+        <table>
+        <tr>
+            <th class="tHeader">Lp.</th>
+            <th class="tHeader">Trofeum</th>
+            <th class="tHeader">David&nbspC. </th>
+            <th class="tHeader">Dawid&nbspS. </th>
+            <th class="tHeader">Maciej&nbspC. </th>
+            <th class="tHeader">Marek&nbspT. </th>
+            <th class="tHeader">Mateusz&nbspN. </th>
+            <th class="tHeader">Mikołaj&nbspK. </th>
+            <th class="tHeader">Paweł&nbspR. </th>
+            <th class="tHeader">Sebastian&nbspZ. </th>
+        </tr>
+        {{#rows}}
+        <tr>
+            <td class="tRow">{{clp}}</td>
+            <td class="tRow">{{ctrofeum}}</td> 
+            <td>{{cdavidc}}</td>
+            <td>{{cdawids}}</td>
+            <td>{{cmaciejc}}</td>
+            <td>{{cmarekt}}</td>
+            <td>{{cmateuszn}}</td>
+            <td>{{cmikołajk}}</td>
+            <td>{{cpawełr}}</td>
+            <td>{{csebastianz}}</td>
+        </tr>
+        {{/rows}}
+    </table>
+    </script>
+
+
+    
+<script type="text/javascript">
+
+var alreadyrunflag=0 //flag to indicate whether target function has already been run
+if (document.addEventListener)
+    document.addEventListener("DOMContentLoaded", function(){
+        alreadyrunflag=1; 
+        var URL = "0AiDHrschxjK2dDFJOGJteFJ1bTZZUDJsYmRtdk5EUVE"
+        Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true })
+    }, false)
+else if (document.all && !window.opera){
+    document.write('<script type="text/javascript" id="contentloadtag" defer="defer" src="javascript:void(0)"><\/script>')
+    var contentloadtag=document.getElementById("contentloadtag")
+    contentloadtag.onreadystatechange=function(){
+        if (this.readyState=="complete"){
+            alreadyrunflag=1; 
+            var URL = "0AiDHrschxjK2dDFJOGJteFJ1bTZZUDJsYmRtdk5EUVE"
+            Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true })
+        }
+    }
+}
+
+function showInfo(data) 
+{
+    var runnerTable = {"data": data,
+                     "pagination": 100,
+                     "tableDiv": "#fullTableCorpo",
+                     "filterDiv": "#fullTableCorpo"
+                    }
+    Sheetsee.makeTable(runnerTable)
+    Sheetsee.initiateTableFilter(runnerTable)
+  }
+  
+window.onload=function(){
+  setTimeout("if (!alreadyrunflag) Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true })", 0)
+}  
+  
+</script>
+    
+  </body>
+</html>
