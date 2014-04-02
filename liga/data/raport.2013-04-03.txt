@@ -1,0 +1,17 @@
+Mateusz K. vs Dawid S. 3:1
+Paweł R. vs Dawid S. 3:1
+Mateusz K. vs Kuba M. 3:1
+Michał R. vs Marek T. 2:2
+Jan S. vs Paweł R. 2:2
+Mateusz K. vs David C. 3:1
+Mateusz N. vs Michał R. 3:1
+Jan S. vs Marek T. 2:2
+Mateusz K. vs Mateusz N. 3:1
+
+Marek T.
+  c18, c26
+  r11, r13
+
+Paweł R.
+  r14, r18
+

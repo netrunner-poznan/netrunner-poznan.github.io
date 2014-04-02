@@ -8,7 +8,7 @@ Maciej C. vs Mateusz N.   1:3
 Trofea:
 
 David C. 
-  c13, c15, c18, c23
+  c13, c15, c19, c23
   r1, r15
 Dawid S. 
   c9
