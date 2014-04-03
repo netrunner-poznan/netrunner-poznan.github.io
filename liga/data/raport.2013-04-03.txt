@@ -18,3 +18,8 @@ Paweł R.
 Mateusz N.
   c1, c4, c26, c27
   r9, r13, r24, r-id-kit
+
+Michał R.
+  c1
+  r9, r16, r24, r-id-kit
+
