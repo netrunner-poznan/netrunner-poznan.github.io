@@ -3,7 +3,7 @@
 1. | Mateusz K.   | 7 | 21 | 14
 2. | Paweł R.     | 6 | 15 | 19
 3. | Marek T.     | 6 | 14 | 18
-4. | Mateusz N.   | 6 | 13 | 16
+4. | Mateusz N.   | 6 | 13 | 24
 5. | David C.     | 5 | 9  | 12
 6. | Kuba M.      | 6 | 8  | 8
 7. | Jan S.       | 4 | 7  | 11
