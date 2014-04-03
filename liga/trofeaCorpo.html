@@ -32,7 +32,7 @@
 <thead>
         <tr class="tHeader">
             <th>Lp.</th>
-            <th>Trofeum</th>
+            <th class="hidecolumn">Trofeum</th>
             <th>David&nbspC. </th>
             <th>Dawid&nbspS. </th>
             <th>Maciej&nbspC. </th>
@@ -44,13 +44,15 @@
             <th>Kuba&nbspM. </th>
             <th>Mateusz&nbspK. </th>
             <th>Jan&nbspS. </th>
+            <th>Michał&nbspR. </th>
         </tr>
 </thead>
 <tbody>
         {{#rows}}
         <tr>
-            <td class="tRow">{{clp}}</td>
-            <td class="tRow">{{ctrofeum}}</td> 
+            <td class="tRow"><a class="tooltip" href="#">{{clp}}<span class="classic">{{ctrofeum}}</span></a></td>
+           <!-- <td class="tRow">{{clp}}</td> -->
+            <td class="tRow hidecolumn">{{ctrofeum}}</td> 
             <td>{{cdavidc}}</td>
             <td>{{cdawids}}</td>
             <td>{{cmaciejc}}</td>
@@ -62,6 +64,7 @@
             <td>{{ckubam}}</td>
             <td>{{cmateuszk}}</td>
             <td>{{cjans}}</td>
+            <td>{{cmichałr}}</td>
         </tr>
         {{/rows}}
 </tbody>
