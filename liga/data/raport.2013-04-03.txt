@@ -23,3 +23,6 @@ Michał R.
   c1
   r9, r16, r24, r-id-kit
 
+Jan S.
+  r16, r26
+  c5, c7

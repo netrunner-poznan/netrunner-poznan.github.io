@@ -33,8 +33,8 @@ Mateusz N.
   c10, c11, c18, c21, c28, c29
 
 Jan S.
-  r5, r6, r7, r14, r15
-  c9, c12, c17, c19, c23, c25
+  r5, r6, r7, r14
+  c9, c12, c17, c19, c23
 
 Marek T.
   c13, c14, c15, c17
