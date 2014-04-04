@@ -83,17 +83,35 @@ table tr th:last-child {
 /* .container {overflow-x: auto;} */
 /* #yourDiv {min-width: 600px} */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 1024px) {}
+.tooltip {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: #ffffff;
+}
 
-/* pop-up tip */
+.tooltip span {
+   display: none; 
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 320px) and (max-width: 1024px) {}
+@media only screen and (max-width: 1000px) {
+        .hidecolumn{
+            display: none;
+        }
+        
 
 .tooltip {
     outline: none;
     color: #ffffff;
-    cursor: help; text-decoration: none;
+    pointer-events: auto;
+    cursor: help; 
+    text-decoration: none;
     position: relative;
 }
 .tooltip span {
+    display: initial;
     margin-left: -999em;
     position: absolute;
 }
@@ -117,3 +135,4 @@ table tr th:last-child {
 .classic { padding: 0.8em 1em; }
 * html a:hover { background: transparent; }
 .classic {background: rgba(0, 0, 0, 0.8); border: 1px solid #b5e853; }
+}

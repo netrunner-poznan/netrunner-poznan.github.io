@@ -1,140 +1,72 @@
 ﻿<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+   <head>
+      <meta charset='utf-8'>
+      <meta http-equiv="X-UA-Compatible" content="chrome=1">
     
-    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
-    <script type='text/javascript' src='../js/tabletop1.3.3.js'></script>
-    <script type='text/javascript' src='../js/sheetsee.js'></script>
-   
+      <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+      <script type='text/javascript' src='../js/tabletop1.3.3.js'></script>
+      <script type='text/javascript' src='../js/sheetsee.js'></script>
+      <script type='text/javascript' src='../js/troftable.js'></script>
     
-    <link rel="stylesheet" type="text/css" href="../css/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../css/tablestyle.css" media="screen" />
+      <link rel="stylesheet" type="text/css" href="../css/pygment_trac.css" media="screen" />
+      <link rel="stylesheet" type="text/css" href="../css/tablestyle.css" media="screen" />
 
-    <title>android_netrunner - poznań hub - liga - trofea</title>
+      <title>android_netrunner - poznań hub - liga - trofea</title>
+   </head>
+   <body>
     
-  </head>
-  <body>
-
-
-    <div class="container">
-      <section id="main_content">
-       <h2>Trofea Runner</h2>
-    <div id="trofTable"></div>
-
-
-      </section>
-    </div>
-    <script id="trofTable" type="text/html">
-<div id="table-container">
-        <table id="maintable">
-<thead>
-        <tr class="tHeader">
-            <th>Lp.</th>
-            <th>Trofeum</th>
-            <th>David&nbspC. </th>
-            <th>Dawid&nbspS. </th>
-            <th>Maciej&nbspC. </th>
-            <th>Marek&nbspT. </th>
-            <th>Mateusz&nbspN. </th>
-            <th>Mikołaj&nbspK. </th>
-            <th>Paweł&nbspR. </th>
-            <th>Sebastian&nbspZ. </th>
-            <th>Kuba&nbspM. </th>
-            <th>Mateusz&nbspK. </th>
-            <th>Jan&nbspS. </th>
-            <th>Michał&nbspR. </th>
-        </tr>
-</thead>
-<tbody>
-        {{#rows}}
-        <tr>
-            <td class="tRow">{{rlp}}</td>
-            <td class="tRow">{{rtrofeum}}</td> 
-            <td>{{rdavidc}}</td>
-            <td>{{rdawids}}</td>
-            <td>{{rmaciejc}}</td>
-            <td>{{rmarekt}}</td>
-            <td>{{rmateuszn}}</td>
-            <td>{{rmikołajk}}</td>
-            <td>{{rpawełr}}</td>
-            <td>{{rsebastianz}}</td>
-            <td>{{rkubam}}</td>
-            <td>{{rmateuszk}}</td>
-            <td>{{rjans}}</td>
-            <td>{{rmichałr}}</td>
-        </tr>
-        {{/rows}}
-</tbody>
-    </table>
-<div id="bottom_anchor"></div>
-</div>
-    </script>
-
-
-    
-<script type="text/javascript">
-
-function moveScroll(){
- var scroll = $(window).scrollTop();
-    var anchor_top = $("#maintable").offset().top;
-    var anchor_bottom = $("#bottom_anchor").offset().top;
-    if (scroll>anchor_top && scroll<anchor_bottom) {
-    clone_table = $("#clone");
-    if(clone_table.length == 0){
-        clone_table = $("#maintable").clone();
-        clone_table.attr('id', 'clone');
-        clone_table.css({position:'fixed',
-                 'pointer-events': 'none',
-                 top:0});
-        clone_table.width($("#maintable").width());
-        $("#table-container").append(clone_table);
-
-        $("#clone").css({visibility:'hidden'});
-        $("#clone thead").css({visibility:'visible' });
-    }
-    } else {
-    $("#clone").remove();
-    }
-}
-$(window).scroll(moveScroll);
-
-var alreadyrunflag=0 //flag to indicate whether target function has already been run
-if (document.addEventListener)
-    document.addEventListener("DOMContentLoaded", function(){
-        alreadyrunflag=1; 
-        var URL = "0AiDHrschxjK2dDFJOGJteFJ1bTZZUDJsYmRtdk5EUVE"
-        Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true })
-    }, false)
-else if (document.all && !window.opera){
-    document.write('<script type="text/javascript" id="contentloadtag" defer="defer" src="javascript:void(0)"><\/script>')
-    var contentloadtag=document.getElementById("contentloadtag")
-    contentloadtag.onreadystatechange=function(){
-        if (this.readyState=="complete"){
-            alreadyrunflag=1; 
-            var URL = "0AiDHrschxjK2dDFJOGJteFJ1bTZZUDJsYmRtdk5EUVE"
-            Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true })
-        }
-    }
-}
-
-function showInfo(data) 
-{
-    var trofTable = {"data": data,
-                     "pagination": 100,
-                     "tableDiv": "#trofTable",
-                     "filterDiv": "#trofTable"
-                    }
-    Sheetsee.makeTable(trofTable)
-    Sheetsee.initiateTableFilter(trofTable)
-  }
-  
-window.onload=function(){
-  setTimeout("if (!alreadyrunflag) Tabletop.init( { key: URL, callback: showInfo, simpleSheet: true })", 0)
-}  
-  
-</script>
-    
-  </body>
+      <div class="container">
+         <section id="main_content">
+            <h2>Trofea Runner</h2>
+            <div id="trofTable"></div>
+         </section>
+      </div>
+      
+      <script id="trofTable" type="text/html">
+      <div id="table-container">
+         <table id="maintable">
+            <thead>
+               <tr class="tHeader">
+                  <th>Lp.</th>
+                  <th class="hidecolumn">Trofeum</th>
+                  <th class="initials">David&nbspC.</th>
+                  <th class="initials">Dawid&nbspS.</th>
+                  <th class="initials">Maciej&nbspC.</th>
+                  <th class="initials">Marek&nbspT.</th>
+                  <th class="initials">Mateusz&nbspN.</th>
+                  <th class="initials">Mikołaj&nbspK.</th>
+                  <th class="initials">Paweł&nbspR.</th>
+                  <th class="initials">Sebastian&nbspZ.</th>
+                  <th class="initials">Kuba&nbspM.</th>
+                  <th class="initials">Mateusz&nbspK.</th>
+                  <th class="initials">Jan&nbspS.</th>
+                  <th class="initials">Michał&nbspR.</th>
+               </tr>
+            </thead>
+            <tbody>
+               {{#rows}}
+               <tr>
+                  <td class="tRow"><a class="tooltip" href="#">{{rlp}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td class="tRow hidecolumn">{{rtrofeum}}</td> 
+                  <td><a class="tooltip" href="#">{{rdavidc}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rdawids}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rmaciejc}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rmarekt}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rmateuszn}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rmikołajk}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rpawełr}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rsebastianz}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rkubam}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rmateuszk}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rjans}}<span class="classic">{{rtrofeum}}</span></a></td>
+                  <td><a class="tooltip" href="#">{{rmichałr}}<span class="classic">{{rtrofeum}}</span></a></td>
+               </tr>
+               {{/rows}}
+            </tbody>
+         </table>
+         <div id="bottom_anchor"></div>
+      </div>
+      </script>
+   </body>
 </html>
