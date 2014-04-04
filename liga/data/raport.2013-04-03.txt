@@ -15,3 +15,14 @@ Marek T.
 Paweł R.
   r14, r18
 
+Mateusz N.
+  c1, c4, c26, c27
+  r9, r13, r24, r-id-kit
+
+Michał R.
+  c1
+  r9, r16, r24, r-id-kit
+
+Jan S.
+  r16, r26
+  c5, c7
