@@ -1,0 +1,36 @@
+Marek T. vs Mateusz K. 2:2
+Kuba M. vs Sebastian Z. 1:2
+Maciej C. vs Michał R. 2:2
+Mateusz N. vs Sebastian S. 3:1
+Paweł R. vs Marek T. 1:3
+David C. vs Jan S. 2:2
+Mateusz N. vs Marek T. 2:2
+Mateusz K. vs Jan S. 1:2
+David C. vs Michał R. 3:1
+Sebastian S. vs Sebastian Z. 1:3
+Kuba M vs Paweł R. 2:2
+Marek T. vs David C. 2:2
+Mateusz N. vs Sebastian Z. 3:1
+Mateusz K. vs Maciej C. 2:2
+Kuba M. vs Michał R. 1:2
+Paweł R. vs Sebastian S. 3:1
+
+Marek T.
+r10, r14, r20, r26, r27, r28
+c5, c7, c22, c28
+
+Sebastian Z.
+r17, r20, r24
+c10, c11, c17, c26
+
+Pawel R.
+r1, r26, r-id-reina
+
+Sebastian S.
+c9
+r1
+
+Kuba M.
+c13
+r5
+
