@@ -9,7 +9,7 @@
 7. | Kuba M.      | 9  | 12 | 10
 8. | Jan S.       | 6  | 11 | 13
 9. | Maciej C.    | 5  | 9  | 11
-10.| Michał R.    | 5  | 8  | 5
+10.| Michał R.    | 5  | 8  | 9
 11.| Dawid S.     | 4  | 5  | 5
 12.| Mikołaj K.   | 3  | 3  | 2
 13.| Sebastian S. | 3  | 3  | 2

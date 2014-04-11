@@ -38,3 +38,6 @@ Mateusz N.
 c17
 r12, r15, r17, r23
 
+Michał R.
+c4, c18, c19, c23
+
