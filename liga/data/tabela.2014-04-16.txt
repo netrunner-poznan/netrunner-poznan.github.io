@@ -5,7 +5,7 @@
 3. | Paweł R.     | 10 | 24 | 24
 4. | Mateusz N.   | 9  | 21 | 29
 5. | David C.     | 10 | 19 | 17
-6. | Sebastian Z. | 8  | 14 | 23
+6. | Sebastian Z. | 8  | 14 | 26
 7. | Jan S.       | 7  | 14 | 13
 8. | Kuba M.      | 9  | 12 | 10
 9. | Maciej C.    | 5  | 9  | 18

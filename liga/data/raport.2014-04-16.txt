@@ -34,5 +34,8 @@ Sebastian S.
   c5
 Marek T.
   c29
+Sebastian Z.
+  c1, c29
+  r22
 Maciej C. (za zeszły tydzień)
   c1, c2, c4, c18, c20, c21, c26
