@@ -1,0 +1,36 @@
+David C. vs Dawid S. 2:2
+  GRNDL < Gabe
+  Reina > HB:ST
+David C. vs Mateusz K. 1:3
+  GRNDL < Andromeda
+  Reina < NBN:MN
+Sebastian S. vs Pawel R. 1:3
+  Andromeda < HB:EtF 
+  NEXT Design < Reina
+Marek T. vs Mateusz K. 1:3
+  HB:EtF < Andromeda
+  Kate < NBN:MN
+Marek T. vs Sebastian Z. 3:1
+  HB:EtF > Kate
+  Kate > Jinteki:RP
+Sebastian S. vs Mateusz K. 1:3
+  NEXT Design < Andromeda
+  Gabe < NBN:MN
+
+Jan S. vs Dawid S. 3:1 (rozegrane na chronosie)
+  Gabe > NBN:MN
+  NBN:MN > Gabe
+
+David C.
+  r14, r20, r26, r27
+  c27
+Pawel R.
+  r2
+  c6, c18
+Mateusz K.
+  r22
+Sebastian S.
+  r5
+  c5
+Maciej C. (za zeszły tydzień)
+  c1, c2, c4, c18, c20, c21, c26
