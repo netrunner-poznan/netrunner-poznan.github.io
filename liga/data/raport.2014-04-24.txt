@@ -1,0 +1,23 @@
+David C. vs Paweł R. 1:3
+  J:RP < Kate
+  Reina < HB:EtF
+Kuba M. vs Maciej C. 3:1
+  Gabe > W:BaBW
+  NBN:MN > Whizzard
+Maciej C. vs Marek T 2:2
+  W:BaBW > CT
+  Whizzard < NBN:MN
+Maciej C. vs Mikołaj K. 2:2
+  W:BaBW > Noise
+  Whizzard < W:GRNDL
+Michał R. vs Mateusz K. 1:3
+  J:RP < Andy
+  CT < NBN:MN
+Jan S. vs Kuba M. 3:1
+  NBN:MN > Gabe
+  Gabe > NBN:MN
+
+
+Paweł R.
+ r11, r13
+
