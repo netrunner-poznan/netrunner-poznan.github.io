@@ -21,3 +21,6 @@ Jan S. vs Kuba M. 3:1
 Paweł R.
  r11, r13
 
+Maciej C.
+ c15, c17, c19, c28 
+ r22

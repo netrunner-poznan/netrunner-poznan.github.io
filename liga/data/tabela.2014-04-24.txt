@@ -8,7 +8,7 @@
 7. | Jan S.       | 8  | 17 | 13
 8. | Kuba M.      | 11 | 16 | 10
 6. | Sebastian Z. | 8  | 14 | 26
-9. | Maciej C.    | 8  | 14 | 18
+9. | Maciej C.    | 8  | 14 | 23
 10.| Michał R.    | 6  | 9  | 9
 11.| Dawid S.     | 6  | 8  | 5
 12.| Sebastian S. | 5  | 5  | 4
