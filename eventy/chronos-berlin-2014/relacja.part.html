@@ -1,0 +1,15 @@
+<script>
+$(document).ready(function() {
+	$.ajax({
+	        async:false,
+	        url: 'data/relacja.prozz.txt',
+	        dataType: 'text',
+	        success: function(data) 
+	        {
+	        	$("pre#relacja").append(data);
+	        }
+	});
+});
+</script>
+
+<pre id="wyniki" style="font-size:12px"><code></code></pre>
