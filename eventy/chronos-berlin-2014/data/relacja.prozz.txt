@@ -1,31 +1,76 @@
-pisane na kolanie, ale nie mam czasu <br />
-<br />
-moje krotkie podsumowanie.<br />
-<br />
-meta inne niz u nas, gry ciekawe i pelne emocji. <br />
-<br />
-wybralem jednak kate http://netrunnerdb.com/en/decklist/4577/lucky-pad<br />
-mialem jechac z CT, spis gotowy, deck w plecaku, jednak wieczorem przed wyjazdem dostalem od alka po nosie, przegralem 3 razy z rzedu moja CT na octgn. powrocilem wiec do decku, ktorym gralem ostatnie 2 tygodnie.<br />
-jako corpa wzialem deck hobba z chronosa w toruniu.<br />
-<br />
-Runda 1: Philipe, wygral store champsy, 2:2<br />
-win vs NBN (midseason/psf/scorch, szybkie 6 punktow i potem dylemat czy runowac reke zastawiona dataravenem. pierwszy run widze psycho, drugi widze scorcha, wystawiam plascrete. poszedlem tag me a agend na reku nie ma, mija chwila a tu juz private security force na stole lezy i czeka na uzycie, w ostatnie turze 2 runy na reke, bez sukcesu, escher, ktorym przestawilem dataravena na r&amp;d i wjazd po ostatnia agende, uff)<br />
-lose vs Noise (slow start - pro contacty, big eco, ice carver i miazga na koniec z medium, moje agendy byly na dole i nie moglem ich scorowac jak byl na to czas)<br />
-<br />
-Runda 2: Fernando Lobos, 4:0<br />
-win vs HB:EtF (big ice, udalo sie szybko wygrac, parasite na etr, a jego inne lody to ichi, wiec wchodzilem bez programow)<br />
-win vs Andromeda (geniusz hobba sie sprawdzil, splashowany close accounts, mimo ze nie mam w talii nic co taguje, rzucony po 3 syfonach, a potem czyszczenie wirusow daly wygrana)<br />
-<br />
-Runda 3: gracz z frankfurtu, ale tego dalej od nas&nbsp;&nbsp;2:2<br />
-lose vs NBN (dostalem flatline w 4 turze, nie wiem skad przyszedl i jak to sie stalo, ale tez bede tym grac, podroze ucza :))<br />
-win vs Noise (bylo ciezko, ale ashe + napd uratowaly, nie mial pieniedzy juz na wszystko, choc wchodzil gdzie chcial)<br />
-<br />
-Runda 4: gracz, ktory dlugo myslal i celebrowal kazdy najmniejszy ruch, nasi mysliciele to przy nim demony szybkosci, zero kompleksow panowie&nbsp;&nbsp;2:2<br />
-lose vs HB (big ice, nie da sie wygrac z 2 x Heimdall 2.0, 2 x Eli, 2 x Viktor 2.0, gdy na poczatku nie podkradlem paru punktow, chronilo to glowne serwery a ja czekalem w cierpieniu na koniec bardzo powolnej gry)<br />
-win vs Gabe (raczej standardowy gabe starszej generacji - z parasitemi i suckerami, szybko udalo sie zatrzasnac drzwi do hq i potem wygrindowac co moje <br />
-<br />
-Runda 5: vs Marcel z netrunners-hq.de, 4:0<br />
-win vs Gabe (gabe ma slaby matchup z hobb's HB, znowu szybki win, choc przez dekoncentracje z mojej strony gra trwala dwa razy dluzej i bylo juz nieciekawie, nie zrezowalem tollbootha, bo mialem asha, myslac, ze przeciwnik runnuje w ostatnim kliku, bedac na 9 kasy nie mialem opcji na pozniejszy rez tollbootha. po tej akcji przeciwnik mial juz 6 punktow a ja 20 min dodatkowe stresu)<br />
-win vs Custom Biotics (dziwna talia, zabijala scorchem i brain dmg, pierwsze 6 punktow wyciagnalem z r&amp;d, potem dostep odciety, hq jednak caly czas otwarte, widze ze gosc ma lody na rece, ale nic z nimi nie robi. on nie chcial mnie odciac od 'success runow' na hq, bo liczyl na szybkiego sea sourca, ktory jednak nie doszedl, obawiajac sie 4 runow na ture na reke wyrzucil agende do archiwow. zajrzalem tam przypadkiem zrezygnowany i boom, zwyciestwo. bylem mocno zdziwiony jak to wszystko wygladalo)<br />
-<br />
+pisane na kolanie, ale nie mam czasu 
+
+moje krotkie podsumowanie.
+
+meta inne niz u nas, gry ciekawe i pelne emocji. 
+
+wybralem jednak kate. mialem jechac z CT, spis gotowy, deck w plecaku, jednak
+wieczorem przed wyjazdem dostalem od alka po nosie, przegralem 3 razy z rzedu
+moja CT na octgn.  powrocilem wiec do decku, ktorym gralem ostatnie 2 tygodnie.
+jako corpa wzialem deck hobba z chronosa w toruniu.
+
+
+-= Runda 1: Philipe, wygral store champsy, 2:2
+
+win vs NBN (midseason/psf/scorch, szybkie 6 punktow i potem dylemat czy runowac
+reke zastawiona dataravenem. pierwszy run widze psycho, drugi widze scorcha,
+wystawiam plascrete. poszedlem tag me a agend na reku nie ma, mija chwila a tu
+juz private security force na stole lezy i czeka na uzycie, w ostatnie turze 2
+runy na reke, bez sukcesu, escher, ktorym przestawilem dataravena na r&d i
+wjazd po ostatnia agende, uff)
+
+lose vs Noise (slow start - pro contacty, big eco, ice carver i miazga na
+koniec z medium, moje agendy byly na dole i nie moglem ich scorowac jak byl na
+to czas)
+
+
+-= Runda 2: Fernando Lobos, 4:0
+
+win vs HB:EtF (big ice, udalo sie szybko wygrac, parasite na etr, a jego inne
+lody to ichi, wiec wchodzilem bez programow)
+
+win vs Andromeda (geniusz hobba sie sprawdzil, splashowany close accounts, mimo
+ze nie mam w talii nic co taguje, rzucony po 3 syfonach, a potem czyszczenie
+wirusow daly wygrana)
+
+
+-= Runda 3: gracz z frankfurtu, ale tego dalej od nas  2:2
+
+lose vs NBN (dostalem flatline w 4 turze, nie wiem skad przyszedl i jak to sie
+stalo, ale tez bede tym grac, podroze ucza :))
+
+win vs Noise (bylo ciezko, ale ashe + napd uratowaly, nie mial pieniedzy juz na
+wszystko, choc wchodzil gdzie chcial)
+
+
+-= Runda 4: gracz, ktory dlugo myslal i celebrowal kazdy najmniejszy ruch, nasi
+mysliciele to przy nim demony szybkosci, zero kompleksow panowie  2:2
+
+lose vs HB (big ice, nie da sie wygrac z 2 x Heimdall 2.0, 2 x Eli, 2 x Viktor
+2.0, gdy na poczatku nie podkradlem paru punktow, chronilo to glowne serwery a
+ja czekalem w cierpieniu na koniec bardzo powolnej gry)
+
+win vs Gabe (raczej standardowy gabe starszej generacji - z parasitemi i
+suckerami, szybko udalo sie zatrzasnac drzwi do hq i potem wygrindowac co moje 
+
+
+-= Runda 5: vs Marcel z netrunners-hq.de, 4:0
+
+win vs Gabe (gabe ma slaby matchup z hobb's HB, znowu szybki win, choc przez
+dekoncentracje z mojej strony gra trwala dwa razy dluzej i bylo juz
+nieciekawie, nie zrezowalem tollbootha, bo mialem asha, myslac, ze przeciwnik
+runnuje w ostatnim kliku, bedac na 9 kasy nie mialem opcji na pozniejszy rez
+tollbootha. po tej akcji przeciwnik mial juz 6 punktow a ja 20 min dodatkowe
+stresu)
+
+win vs Custom Biotics (dziwna talia, zabijala scorchem i brain dmg, pierwsze 6
+punktow wyciagnalem z r&d, potem dostep odciety, hq jednak caly czas otwarte,
+widze ze gosc ma lody na rece, ale nic z nimi nie robi. on nie chcial mnie
+odciac od 'success runow' na hq, bo liczyl na szybkiego sea sourca, ktory
+jednak nie doszedl, obawiajac sie 4 runow na ture na reke wyrzucil agende do
+archiwow. zajrzalem tam przypadkiem zrezygnowany i boom, zwyciestwo. bylem
+mocno zdziwiony jak to wszystko wygladalo)
+
+
 wyjazd udany, alek pozamiatal mistrzowsko, gg!
+
