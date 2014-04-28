@@ -4,12 +4,12 @@ $(document).ready(function() {
 	        async:false,
 	        url: 'data/relacja.prozz.txt',
 	        dataType: 'text',
-	        success: function(data) 
+	        success: function(data)
 	        {
-	        	$("pre#relacja").append(data);
+	        	$("p#relacja").append(data);
 	        }
 	});
 });
 </script>
 
-<pre id="relacja" style="font-size:12px"><code></code></pre>
+<p id="relacja" style="font-size:12px"><code></code></p>
