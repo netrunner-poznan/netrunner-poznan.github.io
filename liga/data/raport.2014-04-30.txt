@@ -1,0 +1,28 @@
+Mikołaj K. vs Sebastian Z. 1:3
+  GRNDL < CT
+  Noise < HB:CI
+David C. vs Sebastian Z. 2:2
+  NBN:MN > CT
+  Whizzard < HB:CI
+David C. vs Maciej C. 2:2
+  NBN:MN > Reina
+  Whizzard < HB:CI
+Marek T. vs Dawid S. 2:2
+  NBN:MN < Kate
+  CT > HB:EtF
+Marek T. vs Maciej C. 2:2
+  NBN:MN > Reina
+  CT < HB:CI
+Mateusz N. vs Jan S. 3:1
+  Andy > NBN:MN
+  J:PE > Kate
+
+Mateusz N.
+  c3, c20
+  r5, r8
+Maciej C.
+  c6, c23, c27, c-id-ci
+  r23
+Sebastian Z.
+  c5, c21, c-id-ci
+  r12, r18
