@@ -3,14 +3,13 @@
 1. | Mateusz K.   | 14 | 38 | 15
 2. | Marek T.     | 13 | 29 | 29
 3. | Paweł R.     | 11 | 27 | 26
-4. | Mateusz N.   | 9  | 21 | 29
-5. | David C.     | 11 | 20 | 17
+4. | David C.     | 12 | 22 | 17
+5. | Mateusz N.   | 9  | 21 | 29
+6. | Kuba M.      | 12 | 18 | 10
 7. | Jan S.       | 8  | 17 | 13
-8. | Kuba M.      | 11 | 16 | 10
-6. | Sebastian Z. | 8  | 14 | 26
+8. | Sebastian Z. | 8  | 14 | 26
 9. | Maciej C.    | 8  | 14 | 23
-10.| Michał R.    | 6  | 9  | 9
+10.| Michał R.    | 8  | 11 | 13
 11.| Dawid S.     | 6  | 8  | 5
 12.| Sebastian S. | 5  | 5  | 4
 13.| Mikołaj K.   | 4  | 5  | 2
-
