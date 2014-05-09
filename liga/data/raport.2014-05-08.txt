@@ -1,0 +1,33 @@
+David C. vs Jan S. 2:2
+  NBN:TWiY > Kate
+  Kit < NBN:MN
+Jan S. vs Maciej C. 2:2
+  NBN:MN > Ken
+  Kate < HB:CI
+Maciej C. vs Kuba M. 1:3
+  HB:CI < Gabe
+  Ken < HB:CI
+Dawid S. vs Pawel R. 1:3
+  NBN:MN < CT
+  Kate < J:HM
+Mateusz N. vs Dawid S. 1:3
+  J:PE < Kate
+  Kate < NBN:MN
+Marek T. vs Kuba M. 2:2
+  Ken > HB:CI
+  J:HM < Gabe
+Mateusz N. vs Sebastian Z. 1:2
+  Kate < HB:CI
+  W:BaBW = CT (time)
+Sebastian Z. vs Mateusz K. 1:3
+  HB:CI < Andy
+  CT < NBN:MN
+Dawid S. vs David C. 2:1
+  Kate > NBN:TWiY
+  NBN:MN = Kit (time)
+Mateusz N. vs Sebastian S. 3:1
+  W:BaBW > Andy
+  Kate > GRNDL
+
+Pawel R.
+ c1, c-id-hm
