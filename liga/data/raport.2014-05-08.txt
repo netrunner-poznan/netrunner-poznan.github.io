@@ -28,6 +28,21 @@ Dawid S. vs David C. 2:1
 Mateusz N. vs Sebastian S. 3:1
   W:BaBW > Andy
   Kate > GRNDL
+Maciej C. vs Sebastian S. 3:1
+  Ken > GRNDL
+  HB:CI > Andy
+Mateusz N. vs David C. 1:3
+  Kate < NBN:TWiY
+  W:BaBW < Silhouette
+Dawid S. vs Jan S. 1:3
+  Silhouette < NBN:MN
+  NBN:MN < Kate
 
 Pawel R.
- c1, c-id-hm
+  c1, c-id-hm
+Maciej C.
+  c5
+  r5, r6, r16, r26, r-id-ken
+Mateusz N.
+  c13, c14, c15
+  r10, r11
