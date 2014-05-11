@@ -4,10 +4,47 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/fancybox/jquery.fancybox-buttons.css?v=1.0.5" media="screen" />
+    <link rel="stylesheet" type="text/css" href="../css/fancybox/jquery.fancybox-thumbs.css?v=1.0.7" media="screen" />
 
-    <title>android_netrunner - poznań city grid</title>
+    <title>android_netrunner - poznań city grid - liga</title>
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+	<script type="text/javascript" src="../js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+	<script type="text/javascript" src="../js/fancybox/jquery.fancybox-buttons.js?v=1.0.5"></script>
+	<script type="text/javascript" src="../js/fancybox/jquery.fancybox-media.js?v=1.0.6"></script>
+	<script type="text/javascript" src="../js/fancybox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<script>
+	$(document).ready(function() {
+		$.ajax({
+		        async:false,
+		        url: 'data/recent.txt',
+		        dataType: 'text',
+		        success: function(data)
+		        {
+		        	$("pre#tabela").append(data);
+		        }
+		});
+
+        $(".fancybox-html").fancybox({
+            width    : '85%',
+            height   : '85%',
+            autoSize    : false,
+            closeClick  : false,
+            fitToView   : false,
+            openEffect  : 'none',
+            closeEffect : 'none',
+            type : 'iframe'
+        });
+
+	$(".promki").fancybox();
+	});
+	</script>
   </head>
 
   <body>
@@ -21,7 +58,7 @@
 		  <a href="/o_grupie.html" class="btn">o grupie</a>
 		  <a href="/liga" class="btn">liga</a>
       <a href="/eventy" class="btn">eventy</a>
-			<a href="ranks.html" class="btn">Rankingi</a>
+			<a href="/ranking" class="btn">Rankingi</a>
 			<a href="https://www.facebook.com/groups/android.netrunner.poznan/" class="btn">facebook</a>
 		  <a href="http://www.youtube.com/channel/UCq5jQg57ZvYcVufs-WgguKA" class="btn">youtube</a>
 		  <a href="/credits.html" class="btn">credits</a>
@@ -32,6 +69,9 @@
     <div class="container">
       <section id="main_content">
         <h3>Nieoficjalna klasyfikacja turniejowa</h3>
+				<h4>Tabela</h4>
+				<pre id="tabela"><code></code></pre>
+				
 				<!-- <p> W klasyfikacji liczą się gracze uczestniczący bądź regularnie w lokalnych turniejach poznańskich, bądź też przyjezdni, którzy rozegrali przynajmniej jeden turniej w Poznaniu. Nie wliczają się turnieje zamiejscowe, w których biorą udział poznaniacy (będzie osobna klasyfikacja wyjazdowa).</p> -->
 			<h3>Zasady punktacji</h3>
 			<h4> Ranking punktowy</h4>
