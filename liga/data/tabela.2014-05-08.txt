@@ -11,5 +11,5 @@
 9. | Sebastian Z. | 12 | 22 | 31
 10.| Dawid S.     | 11 | 17 | 5
 11.| Michał R.    | 8  | 11 | 13
-12.| Sebastian S. | 7  | 7  | 4
+12.| Sebastian S. | 7  | 7  | 5
 13.| Mikołaj K.   | 5  | 6  | 2
