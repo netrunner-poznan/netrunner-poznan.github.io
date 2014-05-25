@@ -1,9 +1,6 @@
 Mateusz N. vs David C. 2:2
   Ken < GRNDL
   NGN:MN > Reina
-Marek T. vs Kuba M. 1:3
-  Kate < NBN:MN
-  W:BaBW < Andy
 David C. vs Maciej C. 2:2
   Reina < HB:EtF
   GRNDL > Silhouette
@@ -13,3 +10,6 @@ Pawel R. vs Jan S. 2:2
 Pawel R. vs Mateusz K. 2:2
   J:PE < Andy
   Reina > NBN:MN
+
+Mateusz N.
+  r-id-ken, r-28
