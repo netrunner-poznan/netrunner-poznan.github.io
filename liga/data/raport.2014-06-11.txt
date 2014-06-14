@@ -4,6 +4,48 @@ Sebastian Z. vs Mateusz K. 2:2
   NBN:TWiY > Andy
   Reina < NBN:MN
 
-
 Sebastian Z.
   c12, c18, c23
+
+
+Plan-Sza w sobote:
+Maciej C. vs Sebastian S. 3:1
+  J:RP > Andy
+  CT > J:PE
+Paweł R. vs Marek T. 1:3
+  NBN:TWiY < Kate
+  Kate < HB:EtF
+Michał R. vs Marek T. 2:2
+  Reina > HB:EtF
+  HB:EtF < Kate
+David C. vs Sebastian S. 2:2
+  J:PE > Andy
+  Silhouette < J:PE
+Paweł R. vs Maciej C. 2:2
+  NBN:TWiY > CT
+  Kate < J:RP
+Paweł R. vs Michał R. 2:2
+  NBN:TWiY > Reina
+  Kate < HB:EtF
+Sebastian Z. vs Sebastian S. 2:2
+  NBN:TWiY > Andy
+  CT < J:PE
+
+Mac C. 3 2
+Seb S. 1 2 2
+Paw R. 1 2 2
+Mar T. 3 2
+Mic R. 2 2
+Dav C. 2
+Seb Z. 2
+
+Maciej C.
+  r12, r13, r21, r24
+Michał R.
+  c5, c7
+  r1, r-id-reina, r14, r20
+Sebastian Z.
+  c24, c25
+  r25
+Sebastian S.
+  c19, c20, c27
