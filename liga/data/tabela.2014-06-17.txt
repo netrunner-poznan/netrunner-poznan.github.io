@@ -6,7 +6,7 @@
 4. | Mateusz N.   | 20 | 43 | 40
 5. | David C.     | 22 | 43 | 17
 6. | Jan S.       | 20 | 43 | 13
-7. | Maciej C.    | 21 | 41 | 41
+7. | Maciej C.    | 21 | 41 | 45
 8. | Kuba M.      | 20 | 36 | 10
 9. | Sebastian Z. | 17 | 31 | 39
 10.| Michał R.    | 14 | 22 | 22

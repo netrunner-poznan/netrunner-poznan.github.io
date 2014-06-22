@@ -12,11 +12,11 @@ Marek T. vs Sebastian S. 2:2
   Kate < J:PE
 
 "ja jak zwykle za pozno podaje wyniki":
-Mikołaj K. vs Maciej Ch. 1:3
+Mikołaj K. vs Maciej C. 1:3
   Noise < J:RP
   J:PE < Silhouette
 
-Maciej Ch.
+Maciej C.
   c24, r2, r-id-silhouette
 
 Sobotnie granie w Plan-Sza:
@@ -35,3 +35,6 @@ Michał R. vs Jan S. 2:2
 
 Michał R.
   c22, c26, c29
+Maciej C.
+  c9, c10, c11
+  r25
