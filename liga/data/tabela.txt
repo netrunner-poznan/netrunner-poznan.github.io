@@ -9,7 +9,7 @@
 7. | Maciej C.    | 21 | 41 | 41
 8. | Kuba M.      | 20 | 36 | 10
 9. | Sebastian Z. | 17 | 31 | 39
-10.| Dawid S.     | 12 | 19 | 5
-11.| Michał R.    | 14 | 22 | 22
-12.| Sebastian S. | 16 | 20 | 8
+10.| Michał R.    | 14 | 22 | 22
+11.| Sebastian S. | 16 | 20 | 8
+12.| Dawid S.     | 12 | 19 | 5
 13.| Mikołaj K.   | 10 | 12 | 2
