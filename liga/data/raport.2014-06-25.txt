@@ -1,0 +1,51 @@
+Maciej C. vs Mateusz N. 3:1
+  J:RP > Reina
+  Iain > HB:EtF
+
+Jan S. vs Mikołaj K. 3:1
+  Silhouette > J:PE
+  HB:EtF > Noise
+Jan S. vs Sebastian Z. 3:1
+  Gabe > W:BaBW
+  HB:EtF > Gabe
+Jan S. vs Sebastian Z. 3:1
+  Silhouette > W:BwBI
+  NBN:MN > Gabe
+
+Marek T. vs Sebastian S. 2:2
+  Kate < J:PE
+  HB:EtF > Kit
+Marek T. vs Dawid S. 2:2
+  Kate < HB:EtF
+  HB:EtF > Gabe
+Marek T. vs Mikołaj K. 2:2
+  Kate > J:PE
+  HB:EtF < Noise
+Marek T. vs Mikołaj K. 2:1 (time)
+  Kate > J:PE
+
+Sebastian S. vs Michał R. 2:2
+  Kit < HB:EtF
+  J:PE > Kit
+
+Maciej C. vs Sebastian Z. 2:1 (time)
+  J:RP > Gabe
+
+Michał R. vs Dawid S. 2:2
+  HB:EtF > Gabe
+  Kit < HB:EtF
+Michał R. vs Mateusz N. 1:2
+  Kit < HB:EtF
+
+Mateusz N.
+  c-5, c-7, c-30
+
+Michał R.
+  c-6
+
+Maciej C.
+  r-id-iain, r-18
+
+Sebastian Z.
+  c-30, r-5
+-----
