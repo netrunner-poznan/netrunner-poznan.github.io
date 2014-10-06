@@ -38,22 +38,21 @@ $(document).ready(function() {
          var today = new Date();
          if (date.date() === today.getDate() && date.month()  === today.getMonth()) 
          {
-            cell.css("background-color", "rgba(255, 255, 255, 0.3)");
+            cell.css({"background-color":"rgba(255, 255, 255, 0.3)"});
          }
       },
       eventRender: function (event, element) 
       {
          $(element).find('.fc-time').css('display','none');
          $(element).find('.fc-content').css({'height':'40px','text-align':'center','vertical-align':'middle'});
-        
+         
          if(event.title.indexOf("Turniej") >= 0 || event.title.indexOf("turniej") >= 0)
          {
             $(element).find('.fc-title').html("Turniej");
             //if(event.title.indexOf("ligowy") >= 0)
             //{
-            //   $(element).find('.fc-event').css({'background-color':'#B5C637','border-color':'#B5C637'});
+               $(element).css({'background-color':'#3E894A','border-color':'rgba(255, 255, 255, 0.0)'});
             //}
-            
          }
          else if(event.title.indexOf("Luźne") >= 0 || event.title.indexOf("luźne") >= 0 )
          {
@@ -72,6 +71,19 @@ $(document).ready(function() {
          else if (event.location.indexOf("GOSU") >= 0)
          {
             $(element).find('.fc-title').after($("<span class=\"fc-icon\" style=\"display: block;   margin-left: auto;   margin-right: auto;\"></span>").html("<img src=\"../img/calendar/gosu.png\" />"));
+         }
+         
+         var today = new Date();
+         if(event.end < today)
+         {
+            $(element).find('.fc-content').before($("<img src=\"http://photoandvision.com/CSS/images/cross-red.png\" style=\"position:absolute;z-index:1;max-height:100px;top: -28px;\" /></img>").html(".."));
+            //$(element).css({'background-color':'#666666','border-color':'rgba(255, 255, 255, 0.0)'});
+         }
+         else if(   event.start.date() === today.getDate() 
+                 && event.start.month() === today.getMonth() 
+                 && event.start.year() ===  today.getFullYear())
+         {
+            $(element).css({'background-color':'#FF0000','border-color':'rgba(255, 255, 255, 0.0)'});
          }
       
       },
