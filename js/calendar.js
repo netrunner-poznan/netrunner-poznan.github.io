@@ -7,11 +7,11 @@ $(document).ready(function() {
       editable: true,
       isCustom: true,
 
-      eventClick: function(event) {
+      //eventClick: function(event) {
          // opens events in a popup window
-         window.open(event.url, 'gcalevent', 'width=700,height=600');
-         return false;
-      },
+      //   window.open(event.url, 'gcalevent', 'width=700,height=600');
+      //   return false;
+      //},
       eventMouseover: function (event, jsEvent, view) {
          $(".event-popup").fadeOut("slow", function () {
              $(this).remove();
@@ -85,7 +85,18 @@ $(document).ready(function() {
          {
             $(element).css({'background-color':'#FF0000','border-color':'rgba(255, 255, 255, 0.0)'});
          }
-      
+         
+         $(element).attr("target", "_blank");
+         
+         if(event.description.indexOf("www.facebook.com/events") >=0)
+         {
+            var urlRegex = /(https?:\/\/[^\s]+)/g;
+            var link = urlRegex.exec(event.description);
+            //alert(link[0]);
+            $(element).attr("href", link[0]);
+            
+            event.url = link[0];
+         }
       },
       viewRender: function (view) 
       {
