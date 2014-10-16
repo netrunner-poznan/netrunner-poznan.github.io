@@ -1,0 +1,83 @@
+li { margin-bottom:15px;}
+
+#calendar {
+   width: 700px;
+   margin: 0 auto;
+}
+
+.hexagon {
+   display: inline-block;
+   vertical-align: middle;
+   position: relative;
+   width: calc(50px/0.57735);
+   height: 50px;
+   margin: 15px 2px;
+}
+
+.hexagon::before,
+.hexagon::after {
+   content: '';
+   position: absolute;
+   z-index: -1;
+   left: 0; right: 0; top: 0; bottom: 0;
+   background-color: inherit;
+}
+
+.hexagon::before {
+   transform: rotateZ(60deg);
+}
+
+.hexagon::after {
+   transform: rotateZ(120deg);
+}
+
+.hexagon,
+.hexagon::before,
+.hexagon::after {
+   border: 0 dashed #B5E853;
+   border-width: 0 1px;
+   text-align: center;
+}
+
+.hexagon.today{
+   background-color: #4b7233;
+}
+
+.hexagon.othermonth{
+   opacity: 0.3;
+   filter: alpha(opacity=30);
+}
+
+.hex-row {
+   clear: left;
+   width: 700px;
+}
+
+.hex-row.even {
+   margin-left: 47px;
+}
+
+.header
+{
+   width: 700px;
+   margin-bottom: 10px;
+}
+.header.bottom
+{
+   width: 700px;
+   margin: -15px 0px -10px 48px;
+}
+
+.dayname{
+   display: inline-block;
+   vertical-align: middle;
+   position: relative;
+   text-align: center;
+
+   width: 93px;
+}
+
+.daynum {
+  margin-top: -15px;
+  margin-bottom: -4px;
+}
