@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+    var showhex = true;
    $('#calendar').fullCalendar({
 
       lang: 'pl',
@@ -76,7 +77,10 @@ $(document).ready(function() {
          var today = new Date();
          if(event.end < today)
          {
-            $(element).find('.fc-content').before($("<img src=\"http://photoandvision.com/CSS/images/cross-red.png\" style=\"position:absolute;z-index:1;max-height:100px;top: -20px; margin-left: -40px;\" /></img>").html(".."));
+            if(showhex)
+               $(element).find('.fc-content').before($("<img src=\"http://photoandvision.com/CSS/images/cross-red.png\" style=\"position:absolute;z-index:1;max-height:100px;top: -20px; margin-left: -40px;\" /></img>").html(".."));
+            else
+               $(element).find('.fc-content').before($("<img src=\"http://photoandvision.com/CSS/images/cross-red.png\" style=\"position:absolute;z-index:1;max-height:100px;top: -28px;\" /></img>").html(".."));
             //$(element).css({'background-color':'#666666','border-color':'rgba(255, 255, 255, 0.0)'});
          }
          else if(   event.start.date() === today.getDate() 
@@ -114,6 +118,22 @@ $(document).ready(function() {
       },
       
       eventAfterAllRender: function (){
+      
+      
+     
+      
+      if($('.hexviewbutton',$('.fc-right')).length == 0 )
+      {
+         $('.fc-right').prepend('<button type="button" class="hexviewbutton fc-button fc-state-default fc-corner-left fc-corner-right">Widok</button>');
+         $( ".hexviewbutton" ).click(function() {
+               showhex = !showhex;
+              
+                //$('#calendar').fullCalendar('destroy');
+
+
+            $('#calendar').fullCalendar('refetchEvents');
+         });
+      }
       
       var html = $('<div/>').addClass('hexview');
       var header = $('<div/>').addClass('header');
@@ -175,11 +195,21 @@ $(document).ready(function() {
           });
          html.append(row);
       });
-
-      //alert(html.html());
-      $( ".fc-view-container" ).css({"display": "none"});
+         
       $(".hexview").replaceWith("");
       $( ".fc-view-container" ).after(html);
+      
+      if(showhex)
+      {
+         $( ".fc-view-container" ).css({"display": "none"});
+         $( ".hexview" ).css({"display": "inline"});
+      }
+      else
+      {
+         $( ".fc-view-container" ).css({"display": "inline"});
+         $( ".hexview").css({"display": "none"});
+      }
+      
       $( "#calendar").css({"margin-bottom": "40px"});
    } 
    });
