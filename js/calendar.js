@@ -17,7 +17,7 @@ $(document).ready(function() {
          $(".event-popup").fadeOut("slow", function () {
              $(this).remove();
          });
-         var event_popup = '<div class="event-popup" style="background: rgba(0, 0, 0, 0.8); border: 1px solid #b5e853; padding: 0.8em 1em;">' + event.start.format("YYYY-MM-DD") +'<BR>' + event.start.format("HH:mm") +'<BR><strong>' +event.title +'</strong><p>';
+         var event_popup = '<div class="event-popup" style="background: rgba(0, 0, 0, 0.8); border: 1px solid #b5e853; padding: 0.8em 1em;">' + event.start.format("DD-MM-YYYY") +'<BR>' + event.start.format("HH:mm") +'<BR><strong>' +event.title +'</strong><p>';
          /*'<BR>'+ event.location */
          event_popup += '</p>';
          $("body").append(event_popup);
@@ -74,6 +74,10 @@ $(document).ready(function() {
             $(element).find('.fc-title').after($("<span class=\"fc-icon\" style=\"display: block;   margin-left: auto;   margin-right: auto;\"></span>").html("<img src=\"../img/calendar/gosu.png\" />"));
          }
          
+         $(element).find('.fc-title').after($("<span class=\"hex_popup_date\" style=\"display: none;\"></span>").html(event.start.format("DD-MM-YYYY")));
+         $(element).find('.fc-title').after($("<span class=\"hex_popup_time\" style=\"display: none;\"></span>").html(event.start.format("HH:mm")));
+         $(element).find('.fc-title').after($("<span class=\"hex_popup_title\" style=\"display: none;\"></span>").html(event.title));
+
          var today = new Date();
          if(event.end < today)
          {
@@ -188,11 +192,13 @@ $(document).ready(function() {
             if(dayNum[i]['othermonth'])
                col.addClass('othermonth');
             var daynum = $('<div/>').addClass('daynum').html(dayNum[i]['date']);
-            var event = $('<div/>').html($(this).html());
+           
+            var event = $('<div/>').addClass('fc-event-container').html($(this).html());
             col.append(daynum);
             col.append(event);
             row.append(col);
           });
+          
          html.append(row);
       });
          
@@ -203,6 +209,28 @@ $(document).ready(function() {
       {
          $( ".fc-view-container" ).css({"display": "none"});
          $( ".hexview" ).css({"display": "inline"});
+         
+         $('.fc-event').mouseover( function(jsEvent){
+            $(".event-popup").fadeOut("slow", function () {
+                  $(this).remove();
+               });
+            var event_popup = '<div class="event-popup" style="background: rgba(0, 0, 0, 0.8); border: 1px solid #b5e853; padding: 0.8em 1em;">' + $('.hex_popup_date',$(this)).text() +'<BR>' + $('.hex_popup_time',$(this)).text()+'<BR><strong>' +$('.hex_popup_title',$(this)).text() +'</strong><p>';
+            /*'<BR>'+ event.location */
+            event_popup += '</p>';
+            $("body").append(event_popup);
+            var pop_top = $(window).height() - jsEvent.pageY;
+            $(".event-popup").css({
+               "bottom": pop_top,
+               "left": jsEvent.pageX
+            }).fadeIn("fast");
+         });
+         
+         $('.fc-event').mouseout( function () {
+            $(".event-popup").delay(2).fadeOut("slow", function () 
+            {
+               $(this).remove();
+            });
+         }); 
       }
       else
       {
