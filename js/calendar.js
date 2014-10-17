@@ -154,8 +154,8 @@ $(document).ready(function() {
       header2.append($('<div/>').addClass('dayname').html('pt'));
       header.append($('<div/>').addClass('dayname').html('sb'));
       header2.append($('<div/>').addClass('dayname').html('sb'));
-      header.append($('<div/>').addClass('dayname').html('ne'));
-      header2.append($('<div/>').addClass('dayname').html('ne'));
+      header.append($('<div/>').addClass('dayname').html('nie'));
+      header2.append($('<div/>').addClass('dayname').html('nie'));
       html.append(header);
       html.append(header2);
       
