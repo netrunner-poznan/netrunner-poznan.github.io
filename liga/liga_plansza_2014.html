@@ -6,53 +6,57 @@
 
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="../css/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../css/fancybox/jquery.fancybox.css?v=2.1.5" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../css/fancybox/jquery.fancybox-buttons.css?v=1.0.5" media="screen" />
-    <link rel="stylesheet" type="text/css" href="../css/fancybox/jquery.fancybox-thumbs.css?v=1.0.7" media="screen" />
 
     <title>android_netrunner - poznań city grid - liga</title>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-   <script type="text/javascript" src="../js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-	<script type="text/javascript" src="../js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
-	<script type="text/javascript" src="../js/fancybox/jquery.fancybox-buttons.js?v=1.0.5"></script>
-	<script type="text/javascript" src="../js/fancybox/jquery.fancybox-media.js?v=1.0.6"></script>
-	<script type="text/javascript" src="../js/fancybox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
 
    <script>
 	$(document).ready(function() {
-		$.ajax({
-		        async:false,
-		        url: 'data/skull.txt',
-		        dataType: 'text',
-		        success: function(data)
-		        {
-		        	$("pre#skull").append(data);
-		        }
-		});
+      $(".archiwa a").click(function(){
+         $.ajax({
+                  type: "GET",
+                  url: $(this).attr('href'),
+                  dataType: "xml",
+                  
+                  success: function (xml) 
+                  {
+		     var  content = $('html').html('<pre>'); 
+                     /*
+                     $(xml).find("FinalResult").each(function()
+                     {
+                        $(this).find("Player").each(function()
+                        {
+			   $('pre',content).append( $(this).find("Alias").text() + '\n');
+			   
+                        });
+                     });
+		     */
+		      var text = '';
+		      $(xml).find("Round").each(function()
+                      {
+			text+= 'Runda: ' + $(this).find("Number:first").text() + '\n'
+			$(this).find("Game").each(function()
+			{
+			   text+= $(this).find("Player1Alias:first").text() + ' vs ' + $(this).find("Player2Alias:first").text() +'\n';
+			}); 
+			text+= '\n';
+		      });
+
+		      $('pre',content).append( text);
+		     document.open();
+		     document.write(content.html());
+		     document.close();
+                  }               
+               });
+            return false;
+          });
       });
    
 	</script>
 
-   <style>
-  pre {
-         background: rgba(0, 0, 0, 0);
-         border: 0px solid rgba(255, 255, 255, 0.15);
-         padding: 0px 140px;
-         font-size: 14px;
-         color: #b5e853;
-         border-radius: 0px;
-         -moz-border-radius: 0px;
-         -webkit-border-radius: 0px;
-         text-wrap: normal;
-         overflow: auto;
-         overflow-y: hidden;
-         font-family: "Courier New", Courier, monospace;
-         
-}
-   </style>
-   
-   
+      
   </head>
 
   <body>
@@ -76,7 +80,16 @@
         <h3>Liga.</h3>
         <h3>Plan-sza</h3>
     
-         <pre id="skull"></pre>
+         <p>Zasady: (<a href="zasady/plansza_2014/liga-netrunner.txt">TXT</a>)</p>
+         
+         <div id="output"></div>
+
+          <h4>Archiwa</h4>
+          <div class="archiwa">
+            <ul>
+            <li>2014-06-25: <a href="data/plansza_2014/2014_10_04.ant">raport</a>
+            </ul>
+          </div>
          
            
       </section>
