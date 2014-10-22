@@ -10,53 +10,7 @@
     <title>android_netrunner - poznań city grid - liga</title>
 
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-
-
-   <script>
-	$(document).ready(function() {
-      $(".archiwa a").click(function(){
-         $.ajax({
-                  type: "GET",
-                  url: $(this).attr('href'),
-                  dataType: "xml",
-                  
-                  success: function (xml) 
-                  {
-		     var  content = $('html').html('<pre>'); 
-                     /*
-                     $(xml).find("FinalResult").each(function()
-                     {
-                        $(this).find("Player").each(function()
-                        {
-			   $('pre',content).append( $(this).find("Alias").text() + '\n');
-			   
-                        });
-                     });
-		     */
-		      var text = '';
-		      $(xml).find("Round").each(function()
-                      {
-			text+= 'Runda: ' + $(this).find("Number:first").text() + '\n'
-			$(this).find("Game").each(function()
-			{
-			   text+= $(this).find("Player1Alias:first").text() + ' vs ' + $(this).find("Player2Alias:first").text() +'\n';
-			}); 
-			text+= '\n';
-		      });
-
-		      $('pre',content).append( text);
-		     document.open();
-		     document.write(content.html());
-		     document.close();
-                  }               
-               });
-            return false;
-          });
-      });
-   
-	</script>
-
-      
+   <script type="text/javascript" src="../js/ant_parser.js">></script> 
   </head>
 
   <body>
@@ -87,7 +41,12 @@
           <h4>Archiwa</h4>
           <div class="archiwa">
             <ul>
-            <li>2014-06-25: <a href="data/plansza_2014/2014_10_04.ant">raport</a>
+            <li>2014-10-18: <a href="data/plansza_2014/2014_10_18.ant" class="raport">raport</a>, 
+                            <a href="data/plansza_2014/2014_10_18.ant" class="tabela">tabela</a>
+            </li>
+            <li>2014-10-04: <a href="data/plansza_2014/2014_10_04.ant" class="raport">raport</a>, 
+                            <a href="data/plansza_2014/2014_10_04.ant" class="tabela">tabela</a>
+            </li>
             </ul>
           </div>
          
