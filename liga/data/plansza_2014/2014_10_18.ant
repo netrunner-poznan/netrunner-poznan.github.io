@@ -117,7 +117,7 @@
       <Place>3</Place>
       <Name />
       <Surname />
-      <Alias>Kuba</Alias>
+      <Alias>Wałek</Alias>
       <RankBeforeTournament>0</RankBeforeTournament>
       <GamesWin>1</GamesWin>
       <GamesDraw>2</GamesDraw>
@@ -147,7 +147,7 @@
           <Player1Dice>false</Player1Dice>
           <Player2Dice>false</Player2Dice>
           <Player1Alias>Chomik</Player1Alias>
-          <Player2Alias>Kuba</Player2Alias>
+          <Player2Alias>Wałek</Player2Alias>
           <Player1RaceCorpo>WeylandConsortium</Player1RaceCorpo>
           <Player2RaceCorpo>NBN</Player2RaceCorpo>
           <Player1RaceRunner>Criminal</Player1RaceRunner>
@@ -246,7 +246,7 @@
           <Player2Id>00000000-0000-0000-0000-000000000000</Player2Id>
           <Player1Dice>false</Player1Dice>
           <Player2Dice>false</Player2Dice>
-          <Player1Alias>Kuba</Player1Alias>
+          <Player1Alias>Wałek</Player1Alias>
           <Player1RaceCorpo>NBN</Player1RaceCorpo>
           <Player2RaceCorpo>NotSet</Player2RaceCorpo>
           <Player1RaceRunner>Shaper</Player1RaceRunner>
@@ -290,7 +290,7 @@
           <Player1Dice>false</Player1Dice>
           <Player2Dice>false</Player2Dice>
           <Player1Alias>Janek</Player1Alias>
-          <Player2Alias>Kuba</Player2Alias>
+          <Player2Alias>Wałek</Player2Alias>
           <Player1RaceCorpo>NBN</Player1RaceCorpo>
           <Player2RaceCorpo>NBN</Player2RaceCorpo>
           <Player1RaceRunner>Criminal</Player1RaceRunner>
@@ -369,7 +369,7 @@
       <Player1Dice>false</Player1Dice>
       <Player2Dice>false</Player2Dice>
       <Player1Alias>Śmieszny</Player1Alias>
-      <Player2Alias>Kuba</Player2Alias>
+      <Player2Alias>Wałek</Player2Alias>
       <Player1RaceCorpo>WeylandConsortium</Player1RaceCorpo>
       <Player2RaceCorpo>NBN</Player2RaceCorpo>
       <Player1RaceRunner>Shaper</Player1RaceRunner>
@@ -388,7 +388,7 @@
       <Player1Dice>false</Player1Dice>
       <Player2Dice>false</Player2Dice>
       <Player1Alias>Marek</Player1Alias>
-      <Player2Alias>Kuba</Player2Alias>
+      <Player2Alias>Wałek</Player2Alias>
       <Player1RaceCorpo>Jinteki</Player1RaceCorpo>
       <Player2RaceCorpo>NBN</Player2RaceCorpo>
       <Player1RaceRunner>Shaper</Player1RaceRunner>
@@ -507,7 +507,7 @@
         <Place>3</Place>
         <Name />
         <Surname />
-        <Alias>Kuba</Alias>
+        <Alias>Wałek</Alias>
         <RankBeforeTournament>0</RankBeforeTournament>
         <GamesWin>1</GamesWin>
         <GamesDraw>2</GamesDraw>
