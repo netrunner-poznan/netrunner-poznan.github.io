@@ -83,8 +83,9 @@ $(document).ready(function(){
 		var content = $('<pre>');
 		var players = [];
 
-		files.forEach(function(entry) {
+		$.each(files,function(i,entry) {
 			$.ajax({
+				async: false,
 				type: "GET",
 		    	url: entry["file"],
 		    	dataType: "xml",
@@ -97,17 +98,51 @@ $(document).ready(function(){
 						var lr = parseInt($(this).find("GamesDraw:first").text());
 						var lp = parseInt($(this).find("GamesLoose:first").text());
 	 	       	
-						players[nick] = {points: players[nick]?players[nick]["points"]+points:points,
-											  lw: players[nick]?players[nick]["lw"]+lw:lw,
-											  lr: players[nick]?players[nick]["lr"]+lr:lr,
-											  lp: players[nick]?players[nick]["lp"]+lp:lp,
-							  				}
-						//alert(nick + ' ' + players[nick]["points"])
+						var idx = players.findIndex( function(element, index, array) {
+							return element.nick === nick;						
+						});
+
+						if (idx == -1)
+						{
+							player = {nick: nick,
+										points: points,
+										matches: 1,
+									  	lw: lw,
+										lr: lr,
+										lp: lp
+								  		};
+							players.push( player);
+						}
+						else
+						{
+							players[idx].points += points;
+							players[idx].matches++;
+							players[idx].lw += lw;
+							players[idx].lr += lr;
+							players[idx].lp += lp; 
+						}
 					});
+				
 	    		}               
 	 		});
 		});
-		//alert('Marek' + ' ' + players["Marek"]["points"]);
+
+		players.sort(function(a,b) {return a.points < b.points;} );		
+		var text = '   | gracz        | p  | m  | l.w | l.r | l.p \n---+--------------+----+----+-----+-----+-----\n';
+		$.each(players,function (i, elem) { 
+         
+					var num = addSpace(i+1 + '.',3);
+					var nick = addSpace(elem.nick,13);
+					var points = addSpace(elem.points+'',3);
+					var matches = addSpace(elem.matches +'',3);
+					var lw = addSpace(elem.lw+'',4);
+					var lr = addSpace(elem.lr+'',4);
+					var lp = addSpace(elem.lp+'',4);
+
+					text+= num + '| ' + nick + '| ' + points +'| ' + matches + '| ' + lw + '| ' + lr + '| ' + lp + '\n';
+		               
+            });
+		content.append( text);
 		return content;	
 	});
 });
