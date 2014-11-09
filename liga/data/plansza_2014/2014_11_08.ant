@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Tournament xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PlayoffStartRound>WithoutPlayoffs</PlayoffStartRound>
+  <Name />
+  <Date>2014-11-08T00:00:00+01:00</Date>
+  <Importance>Local</Importance>
+  <PointsTable>
+    <Player>
+      <IdGalakta>0</IdGalakta>
+      <Id>770801a9-0f8f-4c03-a528-b307d53e8f11</Id>
+      <CorpoIdentity>Weyland Consortium: Building a Better World</CorpoIdentity>
+      <RunnerIdentity>Chaos Theory: Wünderkind</RunnerIdentity>
+      <Place>3</Place>
+      <Name />
+      <Surname />
+      <Alias>Śmieszny</Alias>
+      <RankBeforeTournament>0</RankBeforeTournament>
+      <GamesWin>1</GamesWin>
+      <GamesDraw>0</GamesDraw>
+      <GamesLoose>2</GamesLoose>
+      <SmallPointsPlus>20</SmallPointsPlus>
+      <SmallPointsMinus>40</SmallPointsMinus>
+      <RunnerWins>1</RunnerWins>
+      <CorpoWins>1</CorpoWins>
+      <DiceCount>0</DiceCount>
+      <DeckCheck>false</DeckCheck>
+      <Payment>true</Payment>
+      <Active>true</Active>
+      <Bucholz>20</Bucholz>
+      <MBucholz>8</MBucholz>
+      <Points>4</Points>
+      <SuperBYE>false</SuperBYE>
+    </Player>
+    <Player>
+      <IdGalakta>0</IdGalakta>
+      <Id>5fbabf03-bef2-42b7-9b1c-0bae6ac6342b</Id>
+      <CorpoIdentity>Blue Sun: Powering the Future</CorpoIdentity>
+      <RunnerIdentity>Noise: Hacker Extraordinaire</RunnerIdentity>
+      <Place>2</Place>
+      <Name />
+      <Surname />
+      <Alias>Kuba</Alias>
+      <RankBeforeTournament>0</RankBeforeTournament>
+      <GamesWin>1</GamesWin>
+      <GamesDraw>2</GamesDraw>
+      <GamesLoose>0</GamesLoose>
+      <SmallPointsPlus>40</SmallPointsPlus>
+      <SmallPointsMinus>20</SmallPointsMinus>
+      <RunnerWins>2</RunnerWins>
+      <CorpoWins>2</CorpoWins>
+      <DiceCount>0</DiceCount>
+      <DeckCheck>false</DeckCheck>
+      <Payment>false</Payment>
+      <Active>true</Active>
+      <Bucholz>16</Bucholz>
+      <MBucholz>4</MBucholz>
+      <Points>8</Points>
+      <SuperBYE>false</SuperBYE>
+    </Player>
+    <Player>
+      <IdGalakta>0</IdGalakta>
+      <Id>14880bcb-f9ef-4b6f-97ca-623405afdde5</Id>
+      <CorpoIdentity>Haas-Bioroid: Engineering the Future</CorpoIdentity>
+      <RunnerIdentity>Noise: Hacker Extraordinaire</RunnerIdentity>
+      <Place>1</Place>
+      <Name />
+      <Surname />
+      <Alias>Paweł</Alias>
+      <RankBeforeTournament>0</RankBeforeTournament>
+      <GamesWin>2</GamesWin>
+      <GamesDraw>1</GamesDraw>
+      <GamesLoose>0</GamesLoose>
+      <SmallPointsPlus>50</SmallPointsPlus>
+      <SmallPointsMinus>10</SmallPointsMinus>
+      <RunnerWins>3</RunnerWins>
+      <CorpoWins>2</CorpoWins>
+      <DiceCount>0</DiceCount>
+      <DeckCheck>false</DeckCheck>
+      <Payment>false</Payment>
+      <Active>true</Active>
+      <Bucholz>14</Bucholz>
+      <MBucholz>4</MBucholz>
+      <Points>10</Points>
+      <SuperBYE>false</SuperBYE>
+    </Player>
+    <Player>
+      <IdGalakta>0</IdGalakta>
+      <Id>4cb0e324-1346-4b53-96c4-394ac48fd99d</Id>
+      <CorpoIdentity>Haas-Bioroid: Engineering the Future</CorpoIdentity>
+      <RunnerIdentity>Rielle "Kit" Peddler: Transhuman</RunnerIdentity>
+      <Place>4</Place>
+      <Name />
+      <Surname />
+      <Alias>Chomik</Alias>
+      <RankBeforeTournament>0</RankBeforeTournament>
+      <GamesWin>0</GamesWin>
+      <GamesDraw>1</GamesDraw>
+      <GamesLoose>2</GamesLoose>
+      <SmallPointsPlus>10</SmallPointsPlus>
+      <SmallPointsMinus>50</SmallPointsMinus>
+      <RunnerWins>0</RunnerWins>
+      <CorpoWins>1</CorpoWins>
+      <DiceCount>0</DiceCount>
+      <DeckCheck>false</DeckCheck>
+      <Payment>false</Payment>
+      <Active>true</Active>
+      <Bucholz>22</Bucholz>
+      <MBucholz>8</MBucholz>
+      <Points>2</Points>
+      <SuperBYE>false</SuperBYE>
+    </Player>
+  </PointsTable>
+  <Rounds>
+    <Round>
+      <ScoreEnabled>false</ScoreEnabled>
+      <Number>1</Number>
+      <Games>
+        <Game>
+          <Player1Id>770801a9-0f8f-4c03-a528-b307d53e8f11</Player1Id>
+          <Player2Id>5fbabf03-bef2-42b7-9b1c-0bae6ac6342b</Player2Id>
+          <Player1Dice>false</Player1Dice>
+          <Player2Dice>false</Player2Dice>
+          <Player1Alias>Śmieszny</Player1Alias>
+          <Player2Alias>Kuba</Player2Alias>
+          <Player1RaceCorpo>WeylandConsortium</Player1RaceCorpo>
+          <Player2RaceCorpo>WeylandConsortium</Player2RaceCorpo>
+          <Player1RaceRunner>Shaper</Player1RaceRunner>
+          <Player2RaceRunner>Anarch</Player2RaceRunner>
+          <Player1Score1>0</Player1Score1>
+          <Player1Score2>0</Player1Score2>
+          <Player2Score1>10</Player2Score1>
+          <Player2Score2>10</Player2Score2>
+          <IsSecondGameNotStarted>false</IsSecondGameNotStarted>
+          <IsBYE>false</IsBYE>
+          <Number>1</Number>
+        </Game>
+        <Game>
+          <Player1Id>14880bcb-f9ef-4b6f-97ca-623405afdde5</Player1Id>
+          <Player2Id>4cb0e324-1346-4b53-96c4-394ac48fd99d</Player2Id>
+          <Player1Dice>false</Player1Dice>
+          <Player2Dice>false</Player2Dice>
+          <Player1Alias>Paweł</Player1Alias>
+          <Player2Alias>Chomik</Player2Alias>
+          <Player1RaceCorpo>HaasBioroid</Player1RaceCorpo>
+          <Player2RaceCorpo>HaasBioroid</Player2RaceCorpo>
+          <Player1RaceRunner>Anarch</Player1RaceRunner>
+          <Player2RaceRunner>Shaper</Player2RaceRunner>
+          <Player1Score1>10</Player1Score1>
+          <Player1Score2>10</Player1Score2>
+          <Player2Score1>0</Player2Score1>
+          <Player2Score2>0</Player2Score2>
+          <IsSecondGameNotStarted>false</IsSecondGameNotStarted>
+          <IsBYE>false</IsBYE>
+          <Number>2</Number>
+        </Game>
+      </Games>
+    </Round>
+    <Round>
+      <ScoreEnabled>false</ScoreEnabled>
+      <Number>2</Number>
+      <Games>
+        <Game>
+          <Player1Id>5fbabf03-bef2-42b7-9b1c-0bae6ac6342b</Player1Id>
+          <Player2Id>14880bcb-f9ef-4b6f-97ca-623405afdde5</Player2Id>
+          <Player1Dice>false</Player1Dice>
+          <Player2Dice>false</Player2Dice>
+          <Player1Alias>Kuba</Player1Alias>
+          <Player2Alias>Paweł</Player2Alias>
+          <Player1RaceCorpo>WeylandConsortium</Player1RaceCorpo>
+          <Player2RaceCorpo>HaasBioroid</Player2RaceCorpo>
+          <Player1RaceRunner>Anarch</Player1RaceRunner>
+          <Player2RaceRunner>Anarch</Player2RaceRunner>
+          <Player1Score1>0</Player1Score1>
+          <Player1Score2>10</Player1Score2>
+          <Player2Score1>10</Player2Score1>
+          <Player2Score2>0</Player2Score2>
+          <IsSecondGameNotStarted>false</IsSecondGameNotStarted>
+          <IsBYE>false</IsBYE>
+          <Number>1</Number>
+        </Game>
+        <Game>
+          <Player1Id>770801a9-0f8f-4c03-a528-b307d53e8f11</Player1Id>
+          <Player2Id>4cb0e324-1346-4b53-96c4-394ac48fd99d</Player2Id>
+          <Player1Dice>false</Player1Dice>
+          <Player2Dice>false</Player2Dice>
+          <Player1Alias>Śmieszny</Player1Alias>
+          <Player2Alias>Chomik</Player2Alias>
+          <Player1RaceCorpo>WeylandConsortium</Player1RaceCorpo>
+          <Player2RaceCorpo>HaasBioroid</Player2RaceCorpo>
+          <Player1RaceRunner>Shaper</Player1RaceRunner>
+          <Player2RaceRunner>Shaper</Player2RaceRunner>
+          <Player1Score1>10</Player1Score1>
+          <Player1Score2>10</Player1Score2>
+          <Player2Score1>0</Player2Score1>
+          <Player2Score2>0</Player2Score2>
+          <IsSecondGameNotStarted>false</IsSecondGameNotStarted>
+          <IsBYE>false</IsBYE>
+          <Number>2</Number>
+        </Game>
+      </Games>
+    </Round>
+    <Round>
+      <ScoreEnabled>false</ScoreEnabled>
+      <Number>3</Number>
+      <Games>
+        <Game>
+          <Player1Id>5fbabf03-bef2-42b7-9b1c-0bae6ac6342b</Player1Id>
+          <Player2Id>4cb0e324-1346-4b53-96c4-394ac48fd99d</Player2Id>
+          <Player1Dice>false</Player1Dice>
+          <Player2Dice>false</Player2Dice>
+          <Player1Alias>Kuba</Player1Alias>
+          <Player2Alias>Chomik</Player2Alias>
+          <Player1RaceCorpo>WeylandConsortium</Player1RaceCorpo>
+          <Player2RaceCorpo>HaasBioroid</Player2RaceCorpo>
+          <Player1RaceRunner>Anarch</Player1RaceRunner>
+          <Player2RaceRunner>Shaper</Player2RaceRunner>
+          <Player1Score1>10</Player1Score1>
+          <Player1Score2>0</Player1Score2>
+          <Player2Score1>0</Player2Score1>
+          <Player2Score2>10</Player2Score2>
+          <IsSecondGameNotStarted>false</IsSecondGameNotStarted>
+          <IsBYE>false</IsBYE>
+          <Number>1</Number>
+        </Game>
+        <Game>
+          <Player1Id>770801a9-0f8f-4c03-a528-b307d53e8f11</Player1Id>
+          <Player2Id>14880bcb-f9ef-4b6f-97ca-623405afdde5</Player2Id>
+          <Player1Dice>false</Player1Dice>
+          <Player2Dice>false</Player2Dice>
+          <Player1Alias>Śmieszny</Player1Alias>
+          <Player2Alias>Paweł</Player2Alias>
+          <Player1RaceCorpo>WeylandConsortium</Player1RaceCorpo>
+          <Player2RaceCorpo>HaasBioroid</Player2RaceCorpo>
+          <Player1RaceRunner>Shaper</Player1RaceRunner>
+          <Player2RaceRunner>Anarch</Player2RaceRunner>
+          <Player1Score1>0</Player1Score1>
+          <Player1Score2>0</Player1Score2>
+          <Player2Score1>10</Player2Score1>
+          <Player2Score2>10</Player2Score2>
+          <IsSecondGameNotStarted>false</IsSecondGameNotStarted>
+          <IsBYE>false</IsBYE>
+          <Number>2</Number>
+        </Game>
+      </Games>
+    </Round>
+  </Rounds>
+  <AllGames />
+  <FinalResults>
+    <FinalResult>
+      <FinalPlace>1</FinalPlace>
+      <Player>
+        <IdGalakta>0</IdGalakta>
+        <Id>14880bcb-f9ef-4b6f-97ca-623405afdde5</Id>
+        <CorpoIdentity>Haas-Bioroid: Engineering the Future</CorpoIdentity>
+        <RunnerIdentity>Noise: Hacker Extraordinaire</RunnerIdentity>
+        <Place>1</Place>
+        <Name />
+        <Surname />
+        <Alias>Paweł</Alias>
+        <RankBeforeTournament>0</RankBeforeTournament>
+        <GamesWin>2</GamesWin>
+        <GamesDraw>1</GamesDraw>
+        <GamesLoose>0</GamesLoose>
+        <SmallPointsPlus>50</SmallPointsPlus>
+        <SmallPointsMinus>10</SmallPointsMinus>
+        <RunnerWins>3</RunnerWins>
+        <CorpoWins>2</CorpoWins>
+        <DiceCount>0</DiceCount>
+        <DeckCheck>false</DeckCheck>
+        <Payment>false</Payment>
+        <Active>true</Active>
+        <Bucholz>14</Bucholz>
+        <MBucholz>4</MBucholz>
+        <Points>10</Points>
+        <SuperBYE>false</SuperBYE>
+      </Player>
+    </FinalResult>
+    <FinalResult>
+      <FinalPlace>2</FinalPlace>
+      <Player>
+        <IdGalakta>0</IdGalakta>
+        <Id>5fbabf03-bef2-42b7-9b1c-0bae6ac6342b</Id>
+        <CorpoIdentity>Blue Sun: Powering the Future</CorpoIdentity>
+        <RunnerIdentity>Noise: Hacker Extraordinaire</RunnerIdentity>
+        <Place>2</Place>
+        <Name />
+        <Surname />
+        <Alias>Kuba</Alias>
+        <RankBeforeTournament>0</RankBeforeTournament>
+        <GamesWin>1</GamesWin>
+        <GamesDraw>2</GamesDraw>
+        <GamesLoose>0</GamesLoose>
+        <SmallPointsPlus>40</SmallPointsPlus>
+        <SmallPointsMinus>20</SmallPointsMinus>
+        <RunnerWins>2</RunnerWins>
+        <CorpoWins>2</CorpoWins>
+        <DiceCount>0</DiceCount>
+        <DeckCheck>false</DeckCheck>
+        <Payment>false</Payment>
+        <Active>true</Active>
+        <Bucholz>16</Bucholz>
+        <MBucholz>4</MBucholz>
+        <Points>8</Points>
+        <SuperBYE>false</SuperBYE>
+      </Player>
+    </FinalResult>
+    <FinalResult>
+      <FinalPlace>3</FinalPlace>
+      <Player>
+        <IdGalakta>0</IdGalakta>
+        <Id>770801a9-0f8f-4c03-a528-b307d53e8f11</Id>
+        <CorpoIdentity>Weyland Consortium: Building a Better World</CorpoIdentity>
+        <RunnerIdentity>Chaos Theory: Wünderkind</RunnerIdentity>
+        <Place>3</Place>
+        <Name />
+        <Surname />
+        <Alias>Śmieszny</Alias>
+        <RankBeforeTournament>0</RankBeforeTournament>
+        <GamesWin>1</GamesWin>
+        <GamesDraw>0</GamesDraw>
+        <GamesLoose>2</GamesLoose>
+        <SmallPointsPlus>20</SmallPointsPlus>
+        <SmallPointsMinus>40</SmallPointsMinus>
+        <RunnerWins>1</RunnerWins>
+        <CorpoWins>1</CorpoWins>
+        <DiceCount>0</DiceCount>
+        <DeckCheck>false</DeckCheck>
+        <Payment>true</Payment>
+        <Active>true</Active>
+        <Bucholz>20</Bucholz>
+        <MBucholz>8</MBucholz>
+        <Points>4</Points>
+        <SuperBYE>false</SuperBYE>
+      </Player>
+    </FinalResult>
+    <FinalResult>
+      <FinalPlace>4</FinalPlace>
+      <Player>
+        <IdGalakta>0</IdGalakta>
+        <Id>4cb0e324-1346-4b53-96c4-394ac48fd99d</Id>
+        <CorpoIdentity>Haas-Bioroid: Engineering the Future</CorpoIdentity>
+        <RunnerIdentity>Rielle "Kit" Peddler: Transhuman</RunnerIdentity>
+        <Place>4</Place>
+        <Name />
+        <Surname />
+        <Alias>Chomik</Alias>
+        <RankBeforeTournament>0</RankBeforeTournament>
+        <GamesWin>0</GamesWin>
+        <GamesDraw>1</GamesDraw>
+        <GamesLoose>2</GamesLoose>
+        <SmallPointsPlus>10</SmallPointsPlus>
+        <SmallPointsMinus>50</SmallPointsMinus>
+        <RunnerWins>0</RunnerWins>
+        <CorpoWins>1</CorpoWins>
+        <DiceCount>0</DiceCount>
+        <DeckCheck>false</DeckCheck>
+        <Payment>false</Payment>
+        <Active>true</Active>
+        <Bucholz>22</Bucholz>
+        <MBucholz>8</MBucholz>
+        <Points>2</Points>
+        <SuperBYE>false</SuperBYE>
+      </Player>
+    </FinalResult>
+  </FinalResults>
+  <Playoffs16 />
+  <Playoffs8 />
+</Tournament>
