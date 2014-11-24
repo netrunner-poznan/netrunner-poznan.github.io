@@ -1,10 +1,13 @@
 $(document).ready(function() {
-
-    var showhex = true;
+   
+   var showhex = true;
    $('#calendar').fullCalendar({
 
       lang: 'pl',
-      events: 'https://www.google.com/calendar/feeds/9urt0f96rut3kjqg7a75r8vttc%40group.calendar.google.com/public/basic',
+      googleCalendarApiKey: 'AIzaSyD4BfxDuNgt91yacGck-_cLqseMY7vbllo',
+      events:{
+               googleCalendarId: '9urt0f96rut3kjqg7a75r8vttc@group.calendar.google.com'
+            },
       editable: true,
       isCustom: true,
 
@@ -44,6 +47,7 @@ $(document).ready(function() {
       },
       eventRender: function (event, element) 
       {
+      
          $(element).find('.fc-time').css('display','none');
          $(element).find('.fc-content').css({'height':'40px','text-align':'center','vertical-align':'middle'});
          
@@ -57,7 +61,10 @@ $(document).ready(function() {
          }
          else if(event.title.indexOf("Luźne") >= 0 || event.title.indexOf("luźne") >= 0 )
          {
-            $(element).find('.fc-title').css({"font-size":"12px"});
+            if(showhex)
+               $(element).find('.fc-title').css({"font-size":"11px"});
+            else
+               $(element).find('.fc-title').css({"font-size":"12px"});
             $(element).find('.fc-title').html("Luźne granie");
          }
         
@@ -79,6 +86,7 @@ $(document).ready(function() {
          $(element).find('.fc-title').after($("<span class=\"hex_popup_title\" style=\"display: none;\"></span>").html(event.title));
 
          var today = new Date();
+         
          if(event.end < today)
          {
             if(showhex)
@@ -96,8 +104,9 @@ $(document).ready(function() {
          
          $(element).attr("target", "_blank");
          
-         if(event.description.indexOf("www.facebook.com/events") >=0)
+         if(event.description && event.description.indexOf("www.facebook.com/events") >=0)
          {
+            
             var urlRegex = /(https?:\/\/[^\s]+)/g;
             var link = urlRegex.exec(event.description);
             //alert(link[0]);
@@ -105,6 +114,7 @@ $(document).ready(function() {
             
             event.url = link[0];
          }
+        
       },
       viewRender: function (view) 
       {
