@@ -57,17 +57,23 @@ $(document).ready(function(){
        	dataType: "xml",
           
        	success: function (xml) { 
-         	var text = '   | gracz        | p  | l.w | l.r | l.p \n---+--------------+----+-----+-----+-----\n';
+         	var text = '   | gracz          | p  | l.w | l.r | l.p | corp	                                       '
+							+'| runner                                       \n'+
+							  '---+----------------+----+-----+-----+-----+---------------------------------------------------'
+							+'+---------------------------------------------------\n';
             $(xml).find("FinalResult").each(function(){
 					var num = addSpace($(this).find("FinalPlace:first").text() + '.',3);
-					var nick = addSpace($(this).find("Alias:first").text(),13);
+					var nick = addSpace($(this).find("Alias:first").text(),15);
 					var points = addSpace($(this).find("Points:first").text(),3);
 					var lw = addSpace($(this).find("GamesWin:first").text(),4);
 					var lr = addSpace($(this).find("GamesDraw:first").text(),4);
 					var lp = addSpace($(this).find("GamesLoose:first").text(),4);
+					var corpoIdentity = addSpace($(this).find("CorpoIdentity:first").text(),50)
+					var runnerIdentity = addSpace($(this).find("RunnerIdentity:first").text(),50)
 
-					text+= num + '| ' + nick + '| ' + points +'| ' + lw + '| ' + lr + '| ' + lp + '\n';
-		               
+					text+= num + '| ' + nick + '| ' + points +'| ' + lw + '| ' + lr + '| ' + lp + '| '+ corpoIdentity +'| '+runnerIdentity+'\n';
+
+
             });
  	       	var  content = $('html').html('<pre>');
             $('pre',content).append( text);
@@ -128,11 +134,11 @@ $(document).ready(function(){
 		});
 
 		players.sort(function(a,b) {return a.points < b.points;} );		
-		var text = '   | gracz        | p  | m  | l.w | l.r | l.p \n---+--------------+----+----+-----+-----+-----\n';
+		var text = '   | gracz          | p  | m  | l.w | l.r | l.p \n---+----------------+----+----+-----+-----+-----\n';
 		$.each(players,function (i, elem) { 
          
 					var num = addSpace(i+1 + '.',3);
-					var nick = addSpace(elem.nick,13);
+					var nick = addSpace(elem.nick,15);
 					var points = addSpace(elem.points+'',3);
 					var matches = addSpace(elem.matches +'',3);
 					var lw = addSpace(elem.lw+'',4);
