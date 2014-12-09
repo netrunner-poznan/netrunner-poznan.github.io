@@ -65,7 +65,7 @@
       <Place>1</Place>
       <Name />
       <Surname />
-      <Alias>Paweł</Alias>
+      <Alias>prozz</Alias>
       <RankBeforeTournament>0</RankBeforeTournament>
       <GamesWin>2</GamesWin>
       <GamesDraw>1</GamesDraw>
@@ -139,7 +139,7 @@
           <Player2Id>4cb0e324-1346-4b53-96c4-394ac48fd99d</Player2Id>
           <Player1Dice>false</Player1Dice>
           <Player2Dice>false</Player2Dice>
-          <Player1Alias>Paweł</Player1Alias>
+          <Player1Alias>prozz</Player1Alias>
           <Player2Alias>Chomik</Player2Alias>
           <Player1RaceCorpo>HaasBioroid</Player1RaceCorpo>
           <Player2RaceCorpo>HaasBioroid</Player2RaceCorpo>
@@ -165,7 +165,7 @@
           <Player1Dice>false</Player1Dice>
           <Player2Dice>false</Player2Dice>
           <Player1Alias>Kuba</Player1Alias>
-          <Player2Alias>Paweł</Player2Alias>
+          <Player2Alias>prozz</Player2Alias>
           <Player1RaceCorpo>WeylandConsortium</Player1RaceCorpo>
           <Player2RaceCorpo>HaasBioroid</Player2RaceCorpo>
           <Player1RaceRunner>Anarch</Player1RaceRunner>
@@ -228,7 +228,7 @@
           <Player1Dice>false</Player1Dice>
           <Player2Dice>false</Player2Dice>
           <Player1Alias>Śmieszny</Player1Alias>
-          <Player2Alias>Paweł</Player2Alias>
+          <Player2Alias>prozz</Player2Alias>
           <Player1RaceCorpo>WeylandConsortium</Player1RaceCorpo>
           <Player2RaceCorpo>HaasBioroid</Player2RaceCorpo>
           <Player1RaceRunner>Shaper</Player1RaceRunner>
@@ -256,7 +256,7 @@
         <Place>1</Place>
         <Name />
         <Surname />
-        <Alias>Paweł</Alias>
+        <Alias>prozz</Alias>
         <RankBeforeTournament>0</RankBeforeTournament>
         <GamesWin>2</GamesWin>
         <GamesDraw>1</GamesDraw>
